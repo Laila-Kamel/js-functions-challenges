@@ -136,7 +136,7 @@ export const setDescriptions = async (url) => {
     entry.isEmployed
       ? (employmentStatus = "currently employed")
       : (employmentStatus = "not currently employed");
-    entry.description = `My name is ${entry.name}, I am ${entry.age} years old and ${entry.height}cm tall. I enjoy ${entry.interest[0]}, ${entry.interest[1]} and ${entry.interest[2]}. I am ${employmentStatus}`;
+    entry.description = `My name is ${entry.name}, I am ${entry.age} years old and ${entry.height}cm tall. I enjoy ${entry.interests[0]}, ${entry.interests[1]} and ${entry.interests[2]}. I am ${employmentStatus}`;
   });
 };
 

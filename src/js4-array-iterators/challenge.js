@@ -22,12 +22,9 @@
  */
 
 export const removeFalseValues = (booleanArr) => {
-<<<<<<< Updated upstream
     return booleanArr.filter((value) => value === true);
-=======
   const newArr=booleanArr.filter((bool)=>bool===true);
   return  newArr;
->>>>>>> Stashed changes
 };
   // for (let i=0;i<booleanArr.length;i++){
   //   if(booleanArr[i]==false){
@@ -47,13 +44,10 @@ export const removeFalseValues = (booleanArr) => {
  */
 
 export const createPercentageList = (numbersArr) => {
-<<<<<<< Updated upstream
     // numbersArr[i];
     return numbersArr.map((number) => number * 100 + "%");
-=======
  const newArr=numbersArr.map((num)=>num*100+"%")
  return newArr
->>>>>>> Stashed changes
 };
 
 /**
@@ -65,7 +59,6 @@ export const createPercentageList = (numbersArr) => {
  * @return {string[]} ["disco shoes", "disco jacket", "disco belt"]
  */
 
-<<<<<<< Updated upstream
 // BEST PRACTICE
 export const createListOfPoessessions = (possessionsArr, name) =>
     possessionsArr.map((item) => `${name} ${item}`);
@@ -85,13 +78,12 @@ export const createListOfPoessessions1 = (possessionsArr, name) => {
         newArray.push(name + " " + item);
     });
 
-    return newArray;
-=======
-export const createListOfPoessessions = (possessionsArr, name) => {
-  const newArr=possessionsArr.map((item)=>name+" "+item)
-  return newArr;
->>>>>>> Stashed changes
-};
+    return newArray;}
+
+// export const createListOfPoessessions = (possessionsArr, name) => {
+//   const newArr=possessionsArr.map((item)=>name+" "+item)
+//   return newArr;
+// };
 
 /**
  * Intemediate Challenges
@@ -121,12 +113,9 @@ export const convertStringToNumbersArray2 = (numberString) => {
 };
 
 export const convertStringToNumbersArray = (numberString) => {
-<<<<<<< Updated upstream
     return numberString.split("+").map((string) => parseInt(string));
-=======
    return numberString.split("+").map(Number);
    // return numberString.split("+").map((numStr)=>Number(numStr));
->>>>>>> Stashed changes
 };
 
 /**
@@ -171,16 +160,13 @@ export const createOddEvenArray2 = (numberString) => {
 };
 
 export const createOddEvenArray = (numberString) => {
-<<<<<<< Updated upstream
     // Convert string of values in an array of numbers
     // We want to check if a number is odd or even
     // ["odd", "even", "odd", "even", "odd"];
 
     return numberString.split("+").map((num) => (num % 2 ? "odd" : "even"));
-=======
   // const newArr=numberString.split("+");
   return numberString.split("+").map((num)=>num%2==0?"even":"odd");
->>>>>>> Stashed changes
 };
 
 /**
@@ -192,16 +178,13 @@ export const createOddEvenArray = (numberString) => {
  * @return {string[]} - ["The Google story"]
  */
 
-export const filterBooksBySearch = (booksArr, searchTerm) => {
-<<<<<<< Updated upstream
+export const filterBooksBySearch5 = (booksArr, searchTerm) => {
     return booksArr.filter((book) => book.match(searchTerm));
 };
 
 export const filterBooksBySearch = (booksArr, searchTerm) => {
     return booksArr.filter((book) => book.includes(searchTerm));
-=======
   return booksArr.filter((item)=>item.match(searchTerm))
->>>>>>> Stashed changes
 };
 
 /**
@@ -221,21 +204,18 @@ export const filterBooksBySearch = (booksArr, searchTerm) => {
  */
 
 export const formatStringArray = (stringArr) => {
-<<<<<<< Updated upstream
     const cleanedArr = stringArr.forEach((string) => {
         const cleanStr = string.trim().toLowerCase();
         return cleanStr;
     });
 
     // console.log(???)
-=======
-  const cleanedArr = stringArr.map((string) => {    /////map which returns an array instead of foreach which returns undefined,
-    const cleanStr = string.trim().toLowerCase();
-    return cleanStr; 
-  });
+//   const cleanedArr = stringArr.map((string) => {    /////map which returns an array instead of foreach which returns undefined,
+//     const cleanStr = string.trim().toLowerCase();
+//     return cleanStr; 
+//   });
 
   console.log(cleanedArr)
->>>>>>> Stashed changes
 
     const joinedString = cleanedArr.join("+");
 
@@ -256,13 +236,10 @@ export const formatStringArray = (stringArr) => {
  */
 
 export const formatString = (string) => {
-<<<<<<< Updated upstream
     return;
-=======
    const strArr=string.split('');
    const newArr=strArr.filter((character)=>character.match(/[A-Za-z]/)).map((item,index)=>index%2==0?item.toUpperCase():item.toLowerCase()); //can use /[A-Za-z]/.test(character) instead of match
    return newArr;
->>>>>>> Stashed changes
 };
 
 /**
@@ -289,9 +266,7 @@ export const formatString = (string) => {
  */
 
 export const fizzBuzz = (mixedArray) => {
-<<<<<<< Updated upstream
     return;
-=======
   const newArr=mixedArray.filter((item)=>{
     if((typeof item=="number"&&item>0) ||(typeof item=="string"&&item.match(/^[^-]*[0-9]/)))
     return item;
@@ -307,5 +282,4 @@ export const fizzBuzz = (mixedArray) => {
     // return String(item);
 })
   return newArr;
->>>>>>> Stashed changes
 };

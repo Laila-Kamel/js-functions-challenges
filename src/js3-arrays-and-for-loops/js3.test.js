@@ -44,15 +44,10 @@ describe("Testing createRecipeString()", () => {
 });
 
 describe("Testing getFirstAndLastItems()", () => {
-<<<<<<< Updated upstream
     it("Should be defined", () => {
         expect(getFirstAndLastItems(coaches)).toBeDefined();
     });
-=======
-  it("Should be defined", () => {
-    expect(getFirstAndLastItems(coaches)).toBeDefined();
-  });
->>>>>>> Stashed changes
+
 
     it("Should return an Array ", () => {
         expect(Array.isArray(getFirstAndLastItems(coaches))).toBeTruthy();
@@ -65,15 +60,10 @@ describe("Testing getFirstAndLastItems()", () => {
 });
 
 describe("Testing totalScores()", () => {
-<<<<<<< Updated upstream
     it("Should be defined", () => {
         expect(totalScores(scores)).toBeDefined();
     });
-=======
-  it("Should be defined", () => {
-    expect(totalScores(scores)).toBeDefined();
-  });
->>>>>>> Stashed changes
+ 
 
     it("Should return a Number", () => {
         expect(typeof totalScores(scores)).toBe("number");
@@ -94,15 +84,9 @@ describe("Testing totalScores()", () => {
 });
 
 describe("Testing totalRange()", () => {
-<<<<<<< Updated upstream
     it("Should be defined", () => {
         expect(totalRange(10)).toBeDefined();
     });
-=======
-  it("Should be defined", () => {
-    expect(totalRange(10)).toBeDefined();
-  });
->>>>>>> Stashed changes
 
     it("Should return a Number ", () => {
         expect(typeof totalRange(10)).toBe("number");
@@ -121,15 +105,10 @@ describe("Testing totalRange()", () => {
 });
 
 describe("Testing moveFirstAndLastItems()", () => {
-<<<<<<< Updated upstream
     it("Should be defined", () => {
         expect(moveFirstAndLastItems(items)).toBeDefined();
     });
-=======
-  it("Should be defined", () => {
-    expect(moveFirstAndLastItems(items)).toBeDefined();
-  });
->>>>>>> Stashed changes
+
 
     it("Should return an Array ", () => {
         expect(Array.isArray(getFirstAndLastItems(items))).toBeTruthy();
@@ -150,15 +129,12 @@ describe("Testing moveFirstAndLastItems()", () => {
 });
 
 describe("Testing removeEvenNumbers()", () => {
-<<<<<<< Updated upstream
     it("Should be defined", () => {
         expect(removeEvenNumbers(scores)).toBeDefined();
     });
-=======
   it("Should be defined", () => {
     expect(removeEvenNumbers(scores)).toBeDefined();
   });
->>>>>>> Stashed changes
 
     it("Should return an Array ", () => {
         expect(Array.isArray(removeEvenNumbers(scores))).toBeTruthy();
@@ -191,15 +167,12 @@ describe("Testing removeEvenNumbers()", () => {
 });
 
 describe("Testing generateAverage()", () => {
-<<<<<<< Updated upstream
     it("Should be defined", () => {
         expect(generateAverage([10])).toBeDefined();
     });
-=======
   it("Should be defined", () => {
     expect(generateAverage([10])).toBeDefined();
   });
->>>>>>> Stashed changes
 
     it("Should return a Number", () => {
         expect(typeof generateAverage([10])).toBe("number");
@@ -222,15 +195,12 @@ describe("Testing generateAverage()", () => {
 });
 
 describe("Testing reverseOrder()", () => {
-<<<<<<< Updated upstream
     it("Should be defined", () => {
         expect(reverseOrder(items)).toBeDefined();
     });
-=======
   it("Should be defined", () => {
     expect(reverseOrder(items)).toBeDefined();
   });
->>>>>>> Stashed changes
 
     it("Should return an Array", () => {
         expect(Array.isArray(reverseOrder(items))).toBeTruthy();
@@ -257,7 +227,7 @@ describe("Testing reverseOrder()", () => {
 });
 
 describe("Testing generateHighscores()", () => {
-<<<<<<< Updated upstream
+
     let players, playerScores, highscores;
     beforeEach(() => {
         players = ["Andy", "Bex", "Calum"];
@@ -268,14 +238,7 @@ describe("Testing generateHighscores()", () => {
             "P:3 Calum scored 71",
         ];
     });
-=======
-  let players, playerScores, highscores;
-  beforeEach(() => {
-    players = ["Andy", "Bex", "Calum"];
-    playerScores = [60, 99, 71];
-    highscores = ["P:1 Andy scored 60", "P:2 Bex scored 99", "P:3 Calum scored 71"];
-  });
->>>>>>> Stashed changes
+ 
 
     it("Should be defined", () => {
         expect(generateHighscores(players, playerScores)).toBeDefined();
@@ -324,15 +287,9 @@ describe("Testing generateHighscores()", () => {
 });
 
 describe("Testing encryptString()", () => {
-<<<<<<< Updated upstream
     it("Should NOT return undefined", () => {
         expect(encryptString("  defined")).toBeDefined();
     });
-=======
-  it("Should NOT return undefined", () => {
-    expect(encryptString("  defined")).toBeDefined();
-  });
->>>>>>> Stashed changes
 
     it("Should return a String", () => {
         expect(typeof encryptString("  front")).toBe("string");

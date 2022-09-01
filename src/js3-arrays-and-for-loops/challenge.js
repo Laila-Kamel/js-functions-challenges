@@ -21,18 +21,16 @@
  * @return {string} "Bacon+Lettuce+Tomato"
  */
 
-<<<<<<< Updated upstream
 export const createRecipeString2 = (ingredientsArr) => {
     let recipe = "";
     return (recipe = ingredientsArr.join("+"));
-=======
+}
 export const createRecipeString = (ingredientsArr) => {
   return ingredientsArr.join("+");
->>>>>>> Stashed changes
 };
 //export const createRecipeString = (ingredientsArr) =>ingredientsArr.join("+");
 
-export const createRecipeString = (ingredientsArr) => ingredientsArr.join("+");
+// export const createRecipeString = (ingredientsArr) => ingredientsArr.join("+");
 
 /**
  * A function that takes an Array of Items and returns a NEW ARRAY with the first and last item in it.
@@ -57,15 +55,12 @@ export const getFirstAndLastItems3 = (itemsArr) => {
 };
 
 export const getFirstAndLastItems = (itemsArr) => {
-<<<<<<< Updated upstream
     let [first, ...last] = itemsArr;
     return [first, last.pop()];
-=======
   let firstItem = itemsArr[0];
   let lastItem = itemsArr[itemsArr.length - 1];
   let newArr = [firstItem, lastItem];
   return newArr;
->>>>>>> Stashed changes
 };
 //export const getFirstAndLastItems = (itemsArr) =>[itemsArr.at(0), itemsArr.at(-1)];
 //export const getFirstAndLastItems = (itemsArr) => [itemsArr[0],itemsArr[itemsArr.length - 1]];
@@ -77,7 +72,6 @@ export const getFirstAndLastItems = (itemsArr) => {
  */
 let sum;
 export const totalScores = (scoreArr) => {
-<<<<<<< Updated upstream
     let total = 0;
 
     for (let i = 0; i < scoreArr.length; i++) {
@@ -85,13 +79,11 @@ export const totalScores = (scoreArr) => {
     }
 
     return total;
-=======
     sum=0;
   for (let i = 0; i < scoreArr.length; i++) {
     sum += scoreArr[i];
   }
   return sum;
->>>>>>> Stashed changes
 };
 
 /**
@@ -111,20 +103,17 @@ export const totalRange2 = (rangeMax) => {
 };
 
 export const totalRange = (rangeMax) => {
-<<<<<<< Updated upstream
     let range = 0;
     for (let i = 0; i <= rangeMax; i++) {
         range += i;
     }
 
     return range;
-=======
   sum = 0;
   for (let i = 0; i <= rangeMax; i++) {
     sum += i;
   }
   return sum;
->>>>>>> Stashed changes
 };
 //export const totalRange = (rangeMax) => rangeMax*(rangeMax+1)*0.5;
 
@@ -154,18 +143,15 @@ export const moveFirstAndLastItems1 = (itemsArr) => {
 };
 
 export const moveFirstAndLastItems = (itemsArr) => {
-<<<<<<< Updated upstream
     const [...clonedArr] = itemsArr;
     const lastEntry = clonedArr.pop();
     return [lastEntry, ...clonedArr];
-=======
   const newArr = [...itemsArr];
   if(newArr.length!=0){
     const lastItem = newArr.pop();
     newArr.unshift(lastItem); //newArr.unshift(newArr.pop());
   return newArr;
   }
->>>>>>> Stashed changes
 };
 //export const moveFirstAndLastItems = (itemsArr) =>[itemsArr.at(-1), ...itemsArr.slice(0,-1)];
 
@@ -176,7 +162,6 @@ export const moveFirstAndLastItems = (itemsArr) => {
  * @return {number[]} [1,1,1,1]
  */
 
-<<<<<<< Updated upstream
 export const removeEvenNumbers2 = (numberArr) => {
     return numberArr.filter((num) => num % 2 === 1);
 };
@@ -191,7 +176,7 @@ export const removeEvenNumbers = (numberArr) => {
     }
 
     return newArr;
-=======
+  }
 export const removeEvenNumbers1 = (numberArr) => {
   let newArr = [...numberArr];
   let oddArr = new Array();
@@ -202,15 +187,14 @@ export const removeEvenNumbers1 = (numberArr) => {
   }
   return oddArr;
 };
-export const removeEvenNumbers2 = (numberArr) => {
-  let newArr = [...numberArr];
-  newArr=newArr.filter((num)=>num%2===1)
-  return newArr;
-};
-export const removeEvenNumbers = (numberArr) => {
-  return numberArr.filter((num)=>num%2===1);
->>>>>>> Stashed changes
-};
+// export const removeEvenNumbers2 = (numberArr) => {
+//   let newArr = [...numberArr];
+//   newArr=newArr.filter((num)=>num%2===1)
+//   return newArr;
+// };
+// export const removeEvenNumbers = (numberArr) => {
+//   return numberArr.filter((num)=>num%2===1);
+// };
 
 /**
  * Advanced Challenges
@@ -236,10 +220,8 @@ export const generateAverage2 = (numberArr) => {
 };
 
 export const generateAverage = (numberArr) => {
-<<<<<<< Updated upstream
     if (numberArr.length === 0) return 0;
     return Math.ceil(totalScores(numberArr) / numberArr.length);
-=======
   let sum = 0;
   if (numberArr.length == 0) {
     return 0;
@@ -249,7 +231,6 @@ export const generateAverage = (numberArr) => {
     }
     return Math.round(sum / numberArr.length);
   }
->>>>>>> Stashed changes
 };
 export const generateAverage1 = (numberArr) => {
   if (numberArr.length == 0)return 0;
@@ -268,7 +249,6 @@ export const reverseOrder2 = (toReverseArr) => {
 };
 
 export const reverseOrder = (toReverseArr) => {
-<<<<<<< Updated upstream
     const newArr = [];
 
     for (let i = toReverseArr.length - 1; i >= 0; i--) {
@@ -283,10 +263,8 @@ export const reverseOrder = (toReverseArr) => {
     }
 
     return newArr;
-=======
-  const newArr = [...toReverseArr].reverse();
-  return newArr;
->>>>>>> Stashed changes
+  // const newArr = [...toReverseArr].reverse();
+  // return newArr;
 };
 
 /**
@@ -308,7 +286,6 @@ export const reverseOrder = (toReverseArr) => {
  */
 
 export const generateHighscores = (playersArr, scoresArr) => {
-<<<<<<< Updated upstream
     const newArray = [];
 
     if (playersArr.length === 0 || playersArr.length != scoresArr.length) {
@@ -320,22 +297,20 @@ export const generateHighscores = (playersArr, scoresArr) => {
     }
 
     return newArray;
-=======
-  let result = [];
-  if (
-    playersArr.length != scoresArr.length ||
-    playersArr.length == 0 ||
-    scoresArr.length == 0
-  )
-    return "invalid inputs";
-  else {
-    for (let i = 0; i < playersArr.length; i++) {
-      let newString = `P:${i + 1} ${playersArr[i]} scored ${scoresArr[i]}`;
-      result.push(newString);
-    }
-    return result;
-  }
->>>>>>> Stashed changes
+  // let result = [];
+  // if (
+  //   playersArr.length != scoresArr.length ||
+  //   playersArr.length == 0 ||
+  //   scoresArr.length == 0
+  // )
+  //   return "invalid inputs";
+  // else {
+  //   for (let i = 0; i < playersArr.length; i++) {
+  //     let newString = `P:${i + 1} ${playersArr[i]} scored ${scoresArr[i]}`;
+  //     result.push(newString);
+  //   }
+  //   return result;
+  // }
 };
 
 /**
@@ -364,7 +339,6 @@ export const generateHighscores = (playersArr, scoresArr) => {
 //   return;
 // };
 
-<<<<<<< Updated upstream
 export const encryptString2 = (toEncrypt) => {
     const arr1 = [];
     const arr2 = [];
@@ -413,7 +387,7 @@ export const encryptString1 = (toEncrypt) => {
     return newArr;
 };
 
-export const encryptString = (toEncrypt) => {
+export const encryptString6 = (toEncrypt) => {
     const message = ["", "", ""];
 
     for (let i = 0; i < toEncrypt.length; i++) {
@@ -430,7 +404,7 @@ export const encryptString = (toEncrypt) => {
     }
 
     return message.join("");
-=======
+  }
 export const encryptString = (toEncrypt) => {
   let firstArr = [];
   let secondArr = [];
@@ -446,5 +420,4 @@ export const encryptString = (toEncrypt) => {
   }
   const newArr=firstArr.concat(secondArr,thirdArr).join("");
   return newArr;
->>>>>>> Stashed changes
 };

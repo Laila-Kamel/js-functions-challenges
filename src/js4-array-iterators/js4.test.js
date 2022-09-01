@@ -62,15 +62,10 @@ describe("Testing removeFalseValues()", () => {
 });
 
 describe("Testing createPercentageList()", () => {
-<<<<<<< Updated upstream
-    it("Should return an array", () => {
-        expect(Array.isArray(createPercentageList(toBePercentages))).toBe(true);
-    });
-=======
+
   it("Should return an array", () => {
     expect(Array.isArray(createPercentageList(toBePercentages))).toBe(true);
   });
->>>>>>> Stashed changes
 
     it("Should return an array of Strings", () => {
         const testForStrings = createPercentageList(toBePercentages).every(
@@ -93,17 +88,10 @@ describe("Testing createPercentageList()", () => {
 });
 
 describe("Testing createListOfPoessessions()", () => {
-<<<<<<< Updated upstream
-    it("Should return an array", () => {
-        expect(
-            Array.isArray(createListOfPoessessions(possessions, "Matt's")),
-        ).toBe(true);
-    });
-=======
+
   it("Should return an array", () => {
     expect(Array.isArray(createListOfPoessessions(possessions, "Matt's"))).toBe(true);
   });
->>>>>>> Stashed changes
 
     it("Should return an array of Strings", () => {
         const testForStrings = createListOfPoessessions(
@@ -131,17 +119,10 @@ describe("Testing createListOfPoessessions()", () => {
 });
 
 describe("Testing convertStringToNumbersArray()", () => {
-<<<<<<< Updated upstream
-    it("Should return an array", () => {
-        expect(Array.isArray(convertStringToNumbersArray(numbersCSV))).toBe(
-            true,
-        );
-    });
-=======
+
   it("Should return an array", () => {
     expect(Array.isArray(convertStringToNumbersArray(numbersCSV))).toBe(true);
   });
->>>>>>> Stashed changes
 
     it("Should return an array of Numbers", () => {
         const testForNumbers = convertStringToNumbersArray(numbersCSV).every(
@@ -181,15 +162,10 @@ describe("Testing convertStringToNumbersArray()", () => {
 });
 
 describe("Testing createOddEvenArray()", () => {
-<<<<<<< Updated upstream
-    it("Should return an array", () => {
-        expect(Array.isArray(createOddEvenArray(numbersCSV))).toBe(true);
-    });
-=======
+
   it("Should return an array", () => {
     expect(Array.isArray(createOddEvenArray(numbersCSV))).toBe(true);
   });
->>>>>>> Stashed changes
 
     it("Should return an array of Strings", () => {
         const testForStrings = createOddEvenArray(numbersCSV).every(
@@ -229,17 +205,10 @@ describe("Testing createOddEvenArray()", () => {
 });
 
 describe("Testing filterBooksBySearch()", () => {
-<<<<<<< Updated upstream
-    it("Should return an array", () => {
-        expect(
-            Array.isArray(filterBooksBySearch(["one thing"], "one thing")),
-        ).toBe(true);
-    });
-=======
+
   it("Should return an array", () => {
     expect(Array.isArray(filterBooksBySearch(["one thing"], "one thing"))).toBe(true);
   });
->>>>>>> Stashed changes
 
     it("Should return an array of Strings", () => {
         const testForStrings = filterBooksBySearch(
@@ -296,17 +265,10 @@ describe("Testing filterBooksBySearch()", () => {
     });
 });
 
-<<<<<<< Updated upstream
-xdescribe("Testing formatStringArray()", () => {
-    it("Should return a String", () => {
-        expect(typeof formatStringArray(["  front"])).toBe("string");
-    });
-=======
 describe("Testing formatStringArray()", () => {
   it("Should return a String", () => {
     expect(typeof formatStringArray(["  front"])).toBe("string");
   });
->>>>>>> Stashed changes
 
     it("Should NOT return undefined", () => {
         expect(formatStringArray(["  front"])).toBeDefined();
@@ -335,17 +297,11 @@ describe("Testing formatStringArray()", () => {
     });
 });
 
-<<<<<<< Updated upstream
-xdescribe("Testing formatString()", () => {
-    it("Should NOT return undefined", () => {
-        expect(formatString("  defined")).toBeDefined();
-    });
-=======
+
 describe("Testing formatString()", () => {
   it("Should NOT return undefined", () => {
     expect(formatString("  defined")).toBeDefined();
   });
->>>>>>> Stashed changes
 
     it("Should return an array", () => {
         expect(Array.isArray(formatString("white  space"))).toBe(true);
@@ -397,17 +353,11 @@ describe("Testing formatString()", () => {
     });
 });
 
-<<<<<<< Updated upstream
-xdescribe("Testing fizzBuzz()", () => {
-    const cleanArray = Array(50)
-        .fill(0)
-        .map((_, index) => index + 1);
-=======
+
 describe("Testing fizzBuzz()", () => {
   const cleanArray = Array(50)
     .fill(0)
     .map((_, index) => index + 1);
->>>>>>> Stashed changes
 
     const cleanStringArray = Array(15)
         .fill(0)
