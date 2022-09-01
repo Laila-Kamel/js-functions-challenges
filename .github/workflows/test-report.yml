@@ -1,7 +1,7 @@
 name: 'Test Report'
 on:
   workflow_run:
-    workflows: ['node.js']                     # runs after CI workflow
+    workflows: ['node.js CI']                     # runs after CI workflow
     types:
       - completed
 jobs:
