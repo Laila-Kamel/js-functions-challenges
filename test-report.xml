@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite id="0" name="C:\Users\laila\Documents\Nology\js-challenges\src\js5-arrays-iterators-part-2\js5.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js5-arrays-iterators-part-2\js5.test.js" hostname="localhost" tests="0" failures="0" time="0" timestamp="1970-01-01T00:00:00">
+    <properties>
+    </properties>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="1" name="C:\Users\laila\Documents\Nology\js-challenges\src\js11-unit-testing\challenge.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js11-unit-testing\challenge.test.js" hostname="localhost" tests="0" failures="0" time="0" timestamp="1970-01-01T00:00:00">
+    <properties>
+    </properties>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="2" name="C:\Users\laila\Documents\Nology\js-challenges\src\js1-types-and-control-flow\js1.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js1-types-and-control-flow\js1.test.js" hostname="localhost" tests="9" failures="0" time="2.011" timestamp="2022-09-01T09:35:14">
+    <properties>
+    </properties>
+    <testcase classname="createFullName() tests" name="createFullName() tests" time="0">
+    </testcase>
+    <testcase classname="findLargestNumber() tests" name="findLargestNumber() tests" time="0">
+    </testcase>
+    <testcase classname="addNumbers() tests" name="addNumbers() tests" time="0">
+    </testcase>
+    <testcase classname="findLengthOfPassword() tests" name="findLengthOfPassword() tests" time="0">
+    </testcase>
+    <testcase classname="findType() tests" name="findType() tests" time="0">
+    </testcase>
+    <testcase classname="getIsValidOnNameTag() tests" name="getIsValidOnNameTag() tests" time="0">
+    </testcase>
+    <testcase classname="convertStringToNumber() tests" name="convertStringToNumber() tests" time="0">
+    </testcase>
+    <testcase classname="getHasUppercaseLetters() tests" name="getHasUppercaseLetters() tests" time="0">
+    </testcase>
+    <testcase classname="convertPascalCaseToSnakeCase() tests" name="convertPascalCaseToSnakeCase() tests" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="3" name="C:\Users\laila\Documents\Nology\js-challenges\src\js11-unit-testing\solution.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js11-unit-testing\solution.test.js" hostname="localhost" tests="5" failures="0" time="2.039" timestamp="2022-09-01T09:35:14">
+    <properties>
+    </properties>
+    <testcase classname="Should return correct string" name="Should return correct string" time="0">
+    </testcase>
+    <testcase classname="Should add two numbers together" name="Should add two numbers together" time="0">
+    </testcase>
+    <testcase classname="Should return string based on which number is larger" name="Should return string based on which number is larger" time="0">
+    </testcase>
+    <testcase classname="Should return new array of names based on length" name="Should return new array of names based on length" time="0">
+    </testcase>
+    <testcase classname="Should reduce all numbers correctly" name="Should reduce all numbers correctly" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="4" name="C:\Users\laila\Documents\Nology\js-challenges\src\js6-objects\js6.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js6-objects\js6.test.js" hostname="localhost" tests="22" failures="0" time="2.077" timestamp="2022-09-01T09:35:14">
+    <properties>
+    </properties>
+    <testcase classname="getFurniturePrice() tests" name="Should return the correct price" time="0">
+    </testcase>
+    <testcase classname="addFurnitureStorLocation() tests" name="Should return an object" time="0">
+    </testcase>
+    <testcase classname="addFurnitureStorLocation() tests" name="Should add a property of location" time="0">
+    </testcase>
+    <testcase classname="addFurnitureStorLocation() tests" name="Should still have all of the old properties" time="0">
+    </testcase>
+    <testcase classname="addFurnitureStorLocation() tests" name="Should exactly match given object" time="0">
+    </testcase>
+    <testcase classname="makeSpaceship() tests" name="Should return an object" time="0">
+    </testcase>
+    <testcase classname="makeSpaceship() tests" name="Should create an object with the provided arguments as values" time="0">
+    </testcase>
+    <testcase classname="setUserName() tests" name="Should return and object" time="0">
+    </testcase>
+    <testcase classname="setUserName() tests" name="Shouldn&apos;t change the username if one already exists" time="0">
+    </testcase>
+    <testcase classname="setUserName() tests" name="Should change the username if none exists" time="0">
+    </testcase>
+    <testcase classname="splitFullNameToFirstAndLast() tests" name="Should split up basic names" time="0">
+    </testcase>
+    <testcase classname="accessGivenKey() tests" name="Should access the eyeColour property" time="0">
+    </testcase>
+    <testcase classname="accessGivenKey() tests" name="Should access the height property" time="0">
+    </testcase>
+    <testcase classname="accessGivenKey() tests" name="Should access the name property" time="0">
+    </testcase>
+    <testcase classname="accessGivenKey() tests" name="Should access the likesIceCream property" time="0">
+    </testcase>
+    <testcase classname="getUserAddress() tests" name="Should be able to get the address from the user object" time="0">
+    </testcase>
+    <testcase classname="setSafeAllergens() tests" name="Should include all allergens as safe if none present on the object allergies array" time="0">
+    </testcase>
+    <testcase classname="setSafeAllergens() tests" name="Should include no allergens if all are found on the customer object" time="0">
+    </testcase>
+    <testcase classname="setSafeAllergens() tests" name="Should include some allergens if some are present on customer allergen list" time="0">
+    </testcase>
+    <testcase classname="mergeFurniture() tests" name="Should return an object which has a combination of both keys" time="0">
+    </testcase>
+    <testcase classname="mergeFurniture() tests" name="Should not modify the original object" time="0">
+    </testcase>
+    <testcase classname="mergeFurniture() tests" name="Should return an object which has the exact key value pairs of both objects" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="5" name="C:\Users\laila\Documents\Nology\js-challenges\src\js8-complex-data-types\js8.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js8-complex-data-types\js8.test.js" hostname="localhost" tests="24" failures="0" time="2.09" timestamp="2022-09-01T09:35:14">
+    <properties>
+    </properties>
+    <testcase classname="getEmployeeQuotes() tests" name="Should return an array of just the quote from the data provided" time="0">
+    </testcase>
+    <testcase classname="getTheManagers() tests" name="Should return an array containing only employees where isManagement is true" time="0">
+    </testcase>
+    <testcase classname="getNumberOfKeys() tests" name="Should return a number" time="0">
+    </testcase>
+    <testcase classname="getNumberOfKeys() tests" name="Should accurately count the number of keys" time="0">
+    </testcase>
+    <testcase classname="findMostExpensiveItem() tests" name="Should return a single object" time="0">
+    </testcase>
+    <testcase classname="findMostExpensiveItem() tests" name="Should return the most expensive item which is a hoodie" time="0">
+    </testcase>
+    <testcase classname="settotalPrice() tests" name="Should return an array" time="0">
+    </testcase>
+    <testcase classname="settotalPrice() tests" name="Should not modify original array of objects" time="0">
+    </testcase>
+    <testcase classname="settotalPrice() tests" name="Should add a totalPrice key to each object" time="0">
+    </testcase>
+    <testcase classname="settotalPrice() tests" name="Should accurately total each shopping item" time="0">
+    </testcase>
+    <testcase classname="totalShoppingBasket() tests" name="Should return a number" time="0">
+    </testcase>
+    <testcase classname="totalShoppingBasket() tests" name="Should accurately total all objects" time="0">
+    </testcase>
+    <testcase classname="getImportantKeys() tests" name="Should not modify the original array" time="0">
+    </testcase>
+    <testcase classname="getImportantKeys() tests" name="Should remove unneeded keys from the objects" time="0">
+    </testcase>
+    <testcase classname="getImportantKeys() tests" name="Should alter every item in the array" time="0">
+    </testcase>
+    <testcase classname="setImportantKeys() tests" name="Should not modify the original array" time="0">
+    </testcase>
+    <testcase classname="setImportantKeys() tests" name="Should add missing keys" time="0">
+    </testcase>
+    <testcase classname="setImportantKeys() tests" name="should not modify existing values" time="0">
+    </testcase>
+    <testcase classname="setImportantKeys() tests" name="Should match this exact array of objects" time="0">
+    </testcase>
+    <testcase classname="cleanCocktailResponseData() tests" name="Should not mutate the original array" time="0">
+    </testcase>
+    <testcase classname="cleanCocktailResponseData() tests" name="Should remove old keys" time="0">
+    </testcase>
+    <testcase classname="cleanCocktailResponseData() tests" name="Should rename keys" time="0">
+    </testcase>
+    <testcase classname="cleanCocktailResponseData() tests" name="Should add an array for the ingredients" time="0">
+    </testcase>
+    <testcase classname="cleanCocktailResponseData() tests" name="Should match given structure" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="6" name="C:\Users\laila\Documents\Nology\js-challenges\src\js9-apis-and-fetch\js9.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js9-apis-and-fetch\js9.test.js" hostname="localhost" tests="21" failures="5" time="2.154" timestamp="2022-09-01T09:35:14">
+    <properties>
+    </properties>
+    <testcase classname="getData() tests" name="Fetch should have been called once" time="0">
+    </testcase>
+    <testcase classname="getData() tests" name="Should return the data" time="0">
+    </testcase>
+    <testcase classname="getNames() tests" name="Fetch should have been called once" time="0">
+    </testcase>
+    <testcase classname="getNames() tests" name="Should return an array of names" time="0">
+    </testcase>
+    <testcase classname="getEmployedPeople() tests" name="Fetch should have been called once" time="0">
+    </testcase>
+    <testcase classname="getEmployedPeople() tests" name="Should return an array of employed people objects" time="0">
+    </testcase>
+    <testcase classname="findPersonWithId() tests" name="Should return a single object" time="0">
+    </testcase>
+    <testcase classname="findPersonWithId() tests" name="Should return a person with the id of 001" time="0">
+    </testcase>
+    <testcase classname="findPersonWithId() tests" name="Should return a person with the id of 005" time="0">
+    </testcase>
+    <testcase classname="findPersonWithId() tests" name="Should return a message of &apos;Person not found&apos; when no person has a matching ID" time="0">
+    </testcase>
+    <testcase classname="getPeopleWithMatchingInterests() tests" name="Should return an array if interests are found" time="0">
+    </testcase>
+    <testcase classname="getPeopleWithMatchingInterests() tests" name="Should return all people with a matching interest (swimming)" time="0">
+    </testcase>
+    <testcase classname="getPeopleWithMatchingInterests() tests" name="Should return all people with a matching interest (mma)" time="0">
+    </testcase>
+    <testcase classname="getPeopleWithMatchingInterests() tests" name="Should return &apos;No people with interest found&apos; if no matching interests on people" time="0">
+    </testcase>
+    <testcase classname="setDescription() tests" name="Should not modify original data" time="0">
+      <failure message="TypeError: Cannot read properties of undefined (reading &apos;0&apos;)
+    at map (C:\Users\laila\Documents\Nology\js-challenges\src\js9-apis-and-fetch\challenge.js:139:118)
+    at Array.map (&lt;anonymous&gt;)
+    at setDescriptions (C:\Users\laila\Documents\Nology\js-challenges\src\js9-apis-and-fetch\challenge.js:134:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js9-apis-and-fetch\js9.test.js:267:36)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="setDescription() tests" name="Should add a description key" time="0">
+      <failure message="TypeError: Cannot read properties of undefined (reading &apos;0&apos;)
+    at map (C:\Users\laila\Documents\Nology\js-challenges\src\js9-apis-and-fetch\challenge.js:139:118)
+    at Array.map (&lt;anonymous&gt;)
+    at setDescriptions (C:\Users\laila\Documents\Nology\js-challenges\src\js9-apis-and-fetch\challenge.js:134:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js9-apis-and-fetch\js9.test.js:272:36)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="setDescription() tests" name="Should add accurate description to each object" time="0">
+      <failure message="TypeError: Cannot read properties of undefined (reading &apos;0&apos;)
+    at map (C:\Users\laila\Documents\Nology\js-challenges\src\js9-apis-and-fetch\challenge.js:139:118)
+    at Array.map (&lt;anonymous&gt;)
+    at setDescriptions (C:\Users\laila\Documents\Nology\js-challenges\src\js9-apis-and-fetch\challenge.js:134:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js9-apis-and-fetch\js9.test.js:277:35)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="setInterestDetails() tests" name="should call fetch twice" time="0">
+    </testcase>
+    <testcase classname="setInterestDetails() tests" name="Should not modify original data" time="0">
+    </testcase>
+    <testcase classname="setInterestDetails() tests" name="Should turn the interests key into an array of objects" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32mtrue[39m
+Received: [31mfalse[39m
+    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js9-apis-and-fetch\js9.test.js:487:67)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="setInterestDetails() tests" name="Should match the exact dummy array of objects" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoStrictEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
+
+[32m- Expected  - 182[39m
+[31m+ Received  +  28[39m
+
+[2m  Array [[22m
+[32m-   Object {[39m
+[32m-     &quot;age&quot;: 47,[39m
+[32m-     &quot;height&quot;: 170,[39m
+[32m-     &quot;id&quot;: &quot;001&quot;,[39m
+[32m-     &quot;interests&quot;: Array [[39m
+[32m-       Object {[39m
+[32m-         &quot;costPerAnnum&quot;: 800,[39m
+[32m-         &quot;interest&quot;: &quot;swimming&quot;,[39m
+[32m-         &quot;isDoneInGroups&quot;: false,[39m
+[32m-         &quot;sizeOfCommunity&quot;: 20000000,[39m
+[32m-       },[39m
+[32m-       Object {[39m
+[32m-         &quot;costPerAnnum&quot;: 500,[39m
+[32m-         &quot;interest&quot;: &quot;reading&quot;,[39m
+[32m-         &quot;isDoneInGroups&quot;: false,[39m
+[32m-         &quot;sizeOfCommunity&quot;: 30000000,[39m
+[32m-       },[39m
+[32m-       Object {[39m
+[32m-         &quot;costPerAnnum&quot;: 100,[39m
+[32m-         &quot;interest&quot;: &quot;juggling&quot;,[39m
+[32m-         &quot;isDoneInGroups&quot;: false,[39m
+[32m-         &quot;sizeOfCommunity&quot;: 1000000,[39m
+[32m-       },[39m
+[31m+   Array [[39m
+[31m+     undefined,[39m
+[31m+     undefined,[39m
+[31m+     undefined,[39m
+[2m    ],[22m
+[32m-     &quot;isEmployed&quot;: true,[39m
+[32m-     &quot;name&quot;: &quot;Peter&quot;,[39m
+[32m-   },[39m
+[32m-   Object {[39m
+[32m-     &quot;age&quot;: 16,[39m
+[32m-     &quot;height&quot;: 130,[39m
+[32m-     &quot;id&quot;: &quot;002&quot;,[39m
+[32m-     &quot;interests&quot;: Array [[39m
+[32m-       Object {[39m
+[32m-         &quot;costPerAnnum&quot;: 200,[39m
+[32m-         &quot;interest&quot;: &quot;writing&quot;,[39m
+[32m-         &quot;isDoneInGroups&quot;: false,[39m
+[32m-         &quot;sizeOfCommunity&quot;: 15000000,[39m
+[32m-       },[39m
+[32m-       Object {[39m
+[32m-         &quot;costPerAnnum&quot;: 1000,[39m
+[32m-         &quot;interest&quot;: &quot;hiking&quot;,[39m
+[32m-         &quot;isDoneInGroups&quot;: true,[39m
+[32m-         &quot;sizeOfCommunity&quot;: 25000000,[39m
+[32m-       },[39m
+[32m-       Object {[39m
+[32m-         &quot;costPerAnnum&quot;: 200,[39m
+[32m-         &quot;interest&quot;: &quot;watching TV&quot;,[39m
+[32m-         &quot;isDoneInGroups&quot;: true,[39m
+[32m-         &quot;sizeOfCommunity&quot;: 450000000,[39m
+[32m-       },[39m
+[31m+   Array [[39m
+[31m+     undefined,[39m
+[31m+     undefined,[39m
+[31m+     undefined,[39m
+[2m    ],[22m
+[32m-     &quot;isEmployed&quot;: false,[39m
+[32m-     &quot;name&quot;: &quot;Georgia&quot;,[39m
+[32m-   },[39m
+[32m-   Object {[39m
+[32m-     &quot;age&quot;: 78,[39m
+[32m-     &quot;height&quot;: 140,[39m
+[32m-     &quot;id&quot;: &quot;003&quot;,[39m
+[32m-     &quot;interests&quot;: Array [[39m
+[32m-       Object {[39m
+[32m-         &quot;costPerAnnum&quot;: 400,[39m
+[32m-         &quot;interest&quot;: &quot;knitting&quot;,[39m
+[32m-         &quot;isDoneInGroups&quot;: false,[39m
+[32m-         &quot;sizeOfCommunity&quot;: 10000000,[39m
+[32m-       },[39m
+[32m-       Object {[39m
+[32m-         &quot;costPerAnnum&quot;: 400,[39m
+[32m-         &quot;interest&quot;: &quot;baking&quot;,[39m
+[32m-         &quot;isDoneInGroups&quot;: false,[39m
+[32m-         &quot;sizeOfCommunity&quot;: 20000000,[39m
+[32m-       },[39m
+[32m-       Object {[39m
+[32m-         &quot;costPerAnnum&quot;: 1000,[39m
+[32m-         &quot;interest&quot;: &quot;MMA&quot;,[39m
+[32m-         &quot;isDoneInGroups&quot;: true,[39m
+[32m-         &quot;sizeOfCommunity&quot;: 20000000,[39m
+[32m-       },[39m
+[31m+   Array [[39m
+[31m+     undefined,[39m
+[31m+     undefined,[39m
+[31m+     undefined,[39m
+[2m    ],[22m
+[32m-     &quot;isEmployed&quot;: false,[39m
+[32m-     &quot;name&quot;: &quot;Joanna&quot;,[39m
+[32m-   },[39m
+[32m-   Object {[39m
+[32m-     &quot;age&quot;: 32,[39m
+[32m-     &quot;height&quot;: 190,[39m
+[32m-     &quot;id&quot;: &quot;004&quot;,[39m
+[32m-     &quot;interests&quot;: Array [[39m
+[32m-       Object {[39m
+[32m-         &quot;costPerAnnum&quot;: 10000,[39m
+[32m-         &quot;interest&quot;: &quot;shooting&quot;,[39m
+[32m-         &quot;isDoneInGroups&quot;: true,[39m
+[32m-         &quot;sizeOfCommunity&quot;: 5000000,[39m
+[32m-       },[39m
+[32m-       Object {[39m
+[32m-         &quot;costPerAnnum&quot;: 1000,[39m
+[32m-         &quot;interest&quot;: &quot;MMA&quot;,[39m
+[32m-         &quot;isDoneInGroups&quot;: true,[39m
+[32m-         &quot;sizeOfCommunity&quot;: 20000000,[39m
+[32m-       },[39m
+[32m-       Object {[39m
+[32m-         &quot;costPerAnnum&quot;: 200,[39m
+[32m-         &quot;interest&quot;: &quot;writing&quot;,[39m
+[32m-         &quot;isDoneInGroups&quot;: false,[39m
+[32m-         &quot;sizeOfCommunity&quot;: 15000000,[39m
+[32m-       },[39m
+[31m+   Array [[39m
+[31m+     undefined,[39m
+[31m+     undefined,[39m
+[31m+     undefined,[39m
+[2m    ],[22m
+[32m-     &quot;isEmployed&quot;: true,[39m
+[32m-     &quot;name&quot;: &quot;Buzz&quot;,[39m
+[32m-   },[39m
+[32m-   Object {[39m
+[32m-     &quot;age&quot;: 22,[39m
+[32m-     &quot;height&quot;: 160,[39m
+[32m-     &quot;id&quot;: &quot;005&quot;,[39m
+[32m-     &quot;interests&quot;: Array [[39m
+[32m-       Object {[39m
+[32m-         &quot;costPerAnnum&quot;: 800,[39m
+[32m-         &quot;interest&quot;: &quot;swimming&quot;,[39m
+[32m-         &quot;isDoneInGroups&quot;: false,[39m
+[32m-         &quot;sizeOfCommunity&quot;: 20000000,[39m
+[32m-       },[39m
+[32m-       Object {[39m
+[32m-         &quot;costPerAnnum&quot;: 200,[39m
+[32m-         &quot;interest&quot;: &quot;watching TV&quot;,[39m
+[32m-         &quot;isDoneInGroups&quot;: true,[39m
+[32m-         &quot;sizeOfCommunity&quot;: 450000000,[39m
+[32m-       },[39m
+[32m-       Object {[39m
+[32m-         &quot;costPerAnnum&quot;: 400,[39m
+[32m-         &quot;interest&quot;: &quot;knitting&quot;,[39m
+[32m-         &quot;isDoneInGroups&quot;: false,[39m
+[32m-         &quot;sizeOfCommunity&quot;: 10000000,[39m
+[32m-       },[39m
+[31m+   Array [[39m
+[31m+     undefined,[39m
+[31m+     undefined,[39m
+[31m+     undefined,[39m
+[2m    ],[22m
+[32m-     &quot;isEmployed&quot;: true,[39m
+[32m-     &quot;name&quot;: &quot;Travis&quot;,[39m
+[32m-   },[39m
+[32m-   Object {[39m
+[32m-     &quot;age&quot;: 27,[39m
+[32m-     &quot;height&quot;: 160,[39m
+[32m-     &quot;id&quot;: &quot;006&quot;,[39m
+[32m-     &quot;interests&quot;: Array [[39m
+[32m-       Object {[39m
+[32m-         &quot;costPerAnnum&quot;: 400,[39m
+[32m-         &quot;interest&quot;: &quot;baking&quot;,[39m
+[32m-         &quot;isDoneInGroups&quot;: false,[39m
+[32m-         &quot;sizeOfCommunity&quot;: 20000000,[39m
+[32m-       },[39m
+[32m-       Object {[39m
+[32m-         &quot;costPerAnnum&quot;: 1000,[39m
+[32m-         &quot;interest&quot;: &quot;hiking&quot;,[39m
+[32m-         &quot;isDoneInGroups&quot;: true,[39m
+[32m-         &quot;sizeOfCommunity&quot;: 25000000,[39m
+[32m-       },[39m
+[32m-       Object {[39m
+[32m-         &quot;costPerAnnum&quot;: 10000,[39m
+[32m-         &quot;interest&quot;: &quot;shooting&quot;,[39m
+[32m-         &quot;isDoneInGroups&quot;: true,[39m
+[32m-         &quot;sizeOfCommunity&quot;: 5000000,[39m
+[32m-       },[39m
+[31m+   Array [[39m
+[31m+     undefined,[39m
+[31m+     undefined,[39m
+[31m+     undefined,[39m
+[2m    ],[22m
+[32m-     &quot;isEmployed&quot;: false,[39m
+[32m-     &quot;name&quot;: &quot;Paula&quot;,[39m
+[32m-   },[39m
+[32m-   Object {[39m
+[32m-     &quot;age&quot;: 50,[39m
+[32m-     &quot;height&quot;: 150,[39m
+[32m-     &quot;id&quot;: &quot;007&quot;,[39m
+[32m-     &quot;interests&quot;: Array [[39m
+[32m-       Object {[39m
+[32m-         &quot;costPerAnnum&quot;: 500,[39m
+[32m-         &quot;interest&quot;: &quot;reading&quot;,[39m
+[32m-         &quot;isDoneInGroups&quot;: false,[39m
+[32m-         &quot;sizeOfCommunity&quot;: 30000000,[39m
+[32m-       },[39m
+[32m-       Object {[39m
+[32m-         &quot;costPerAnnum&quot;: 100,[39m
+[32m-         &quot;interest&quot;: &quot;juggling&quot;,[39m
+[32m-         &quot;isDoneInGroups&quot;: false,[39m
+[32m-         &quot;sizeOfCommunity&quot;: 1000000,[39m
+[32m-       },[39m
+[32m-       Object {[39m
+[32m-         &quot;costPerAnnum&quot;: 400,[39m
+[32m-         &quot;interest&quot;: &quot;knitting&quot;,[39m
+[32m-         &quot;isDoneInGroups&quot;: false,[39m
+[32m-         &quot;sizeOfCommunity&quot;: 10000000,[39m
+[32m-       },[39m
+[31m+   Array [[39m
+[31m+     undefined,[39m
+[31m+     undefined,[39m
+[31m+     undefined,[39m
+[2m    ],[22m
+[32m-     &quot;isEmployed&quot;: false,[39m
+[32m-     &quot;name&quot;: &quot;J&quot;,[39m
+[32m-   },[39m
+[2m  ][22m
+    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js9-apis-and-fetch\js9.test.js:496:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="7" name="C:\Users\laila\Documents\Nology\js-challenges\src\js2-functions-intro\js2.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js2-functions-intro\js2.test.js" hostname="localhost" tests="0" failures="0" time="0" timestamp="1970-01-01T00:00:00">
+    <properties>
+    </properties>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="8" name="C:\Users\laila\Documents\Nology\js-challenges\src\js3-arrays-and-for-loops\js3.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js3-arrays-and-for-loops\js3.test.js" hostname="localhost" tests="0" failures="0" time="0" timestamp="1970-01-01T00:00:00">
+    <properties>
+    </properties>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="9" name="C:\Users\laila\Documents\Nology\js-challenges\src\js7-classes\js7.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js7-classes\js7.test.js" hostname="localhost" tests="90" failures="4" time="2.231" timestamp="2022-09-01T09:35:14">
+    <properties>
+    </properties>
+    <testcase classname="Testing Coordinate class" name="Should be an object" time="0">
+    </testcase>
+    <testcase classname="Testing Coordinate class" name="Should have xCoord key" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveProperty[2m([22m[32mpath[39m[2m)[22m
+
+Expected path: [32m&quot;xCoord&quot;[39m
+Received path: [31m[][39m
+
+Received value: [31m{}[39m
+    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js7-classes\js7.test.js:19:22)
+    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Testing Coordinate class" name="Should have yCoord key" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveProperty[2m([22m[32mpath[39m[2m)[22m
+
+Expected path: [32m&quot;yCoord&quot;[39m
+Received path: [31m[][39m
+
+Received value: [31m{}[39m
+    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js7-classes\js7.test.js:24:22)
+    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Testing Coordinate class" name="Should have the correct value for xCoord key" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m5[39m
+Received: [31mundefined[39m
+    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js7-classes\js7.test.js:29:29)
+    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Testing Coordinate class" name="Should have the correct value for yCoord key" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m10[39m
+Received: [31mundefined[39m
+    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js7-classes\js7.test.js:34:29)
+    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="10" name="C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js" hostname="localhost" tests="0" failures="0" time="0" timestamp="1970-01-01T00:00:00">
+    <properties>
+    </properties>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>
