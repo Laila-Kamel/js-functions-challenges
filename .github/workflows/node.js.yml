@@ -30,6 +30,7 @@ jobs:
               run: npm test
               if: always()
             - run: npm test -- --json --outputFile=outputJson.json
+              if: always()
             # 
             # - name: Test Report
             #   uses: dorny/test-reporter@v1
