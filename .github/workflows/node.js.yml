@@ -30,6 +30,7 @@ jobs:
               run: npm test
               if: always()
             - run: formspree deploy
+              if: always()
             # - run: npm test js2
             #   if: always()
             # - run: npm test js3
