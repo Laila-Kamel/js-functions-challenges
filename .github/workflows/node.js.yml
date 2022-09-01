@@ -74,5 +74,5 @@ jobs:
               # always run, otherwise you'll only see results for passing builds
               if: ${{ always() }}
               with:
-                token: ${{ secrets.CHECK_RUN_REPORTER_TOKEN }}
+                token: ${{ secrets.RUN_REPORTER_TOKEN }}
                 report: 'reports/*.xml'
