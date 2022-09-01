@@ -38,7 +38,7 @@ jobs:
                 path: test-*.xml    # Path to test results
                 reporter: jest-junit 
             - run: formspree deploy
-               if: always()
+              if: always()
             # - run: npm test js2
             #   if: always()
             # - run: npm test js3
