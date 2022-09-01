@@ -29,8 +29,7 @@ jobs:
             - name: run test
               run: npm test
               if: always()
-            - run: jest --json --outputFile=result.json --testLocationInResults
-            - run: jest --json --outputFile=jest-results.json --testLocationInResults
+            - run: jest --json --outputFile=jest-results.json
               if: always()
             # 
             # - name: Test Report 
