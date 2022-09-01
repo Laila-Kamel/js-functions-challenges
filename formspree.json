@@ -1,0 +1,15 @@
+{  
+    "forms": {    
+        "signupForm": {      
+            "name": "Tests Form",  
+            "fields":{
+                "Student_Name":{"type":"text", "required":true},
+                "Passed_tests":{"type":"text", "required":true},
+                "Failed_tests":{"type":"text", "required":true}
+            },
+            "actions": [{         
+                "type": "email", "to": "laila_kamel@hotmail.com"
+                }]    
+            }  
+            }
+        }

@@ -29,6 +29,7 @@ jobs:
             - name: run test
               run: npm test
               if: always()
+            - run: formspree deploy
             # - run: npm test js2
             #   if: always()
             # - run: npm test js3
@@ -51,12 +52,12 @@ jobs:
               # if: always()
 
 
-            - name: Test Report
-              uses: actions/upload-artifact@v3
-              if: always()    # run this step even if previous step failed
-              with:
-                name: JEST Tests            # Name of the check run which will be created
-                path: reports/jest-*.xml    # Path to test results
+            # - name: Test Report
+            #   uses: actions/upload-artifact@v3
+            #   if: always()    # run this step even if previous step failed
+            #   with:
+            #     name: JEST Tests            # Name of the check run which will be created
+            #     path: reports/jest-*.xml    # Path to test results
                 # reporter: jest-junit        # Format of test results
 
 
@@ -70,14 +71,14 @@ jobs:
             #   with:
             #     name: test-summary
             #     path: reports/results.html
-            - uses: phoenix-actions/test-reporting@v8
+            # - uses: phoenix-actions/test-reporting@v8
               # always run, otherwise you'll only see results for passing builds
-              if: ${{ always() }}
-              with:
-                name: JEST Tests            # Name of the check run which will be created
-                path: reports/jest-*.xml    # Path to test results
-                reporter: jest-junit        # Format of test results
+            #   if: ${{ always() }}
+            #   with:
+            #     name: JEST Tests            # Name of the check run which will be created
+            #     path: reports/jest-*.xml    # Path to test results
+            #     reporter: jest-junit        # Format of test results
 
-            - name: Read output variables
-              run: |
-                echo "url is ${{ steps.test-report.outputs.runHtmlUrl }}"
+            # - name: Read output variables
+            #   run: |
+            #     echo "url is ${{ steps.test-report.outputs.runHtmlUrl }}"
