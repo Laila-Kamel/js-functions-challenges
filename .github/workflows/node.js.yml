@@ -70,9 +70,14 @@ jobs:
             #   with:
             #     name: test-summary
             #     path: reports/results.html
-            - uses: js-functions-challenges/action@v2.11.1
+            - uses: phoenix-actions/test-reporting@v8
               # always run, otherwise you'll only see results for passing builds
               if: ${{ always() }}
               with:
-                token: ${{ secrets.RUN_REPORTER_TOKEN }}
-                report: 'reports/*.xml'
+                name: JEST Tests            # Name of the check run which will be created
+                path: reports/jest-*.xml    # Path to test results
+                reporter: jest-junit        # Format of test results
+
+            - name: Read output variables
+              run: |
+                echo "url is ${{ steps.test-report.outputs.runHtmlUrl }}"
