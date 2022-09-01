@@ -70,7 +70,7 @@ jobs:
             #   with:
             #     name: test-summary
             #     path: reports/results.html
-            - uses: formspree.io//action@v2.11.1
+            - uses: js-functions-challenges/action@v2.11.1
               # always run, otherwise you'll only see results for passing builds
               if: ${{ always() }}
               with:
