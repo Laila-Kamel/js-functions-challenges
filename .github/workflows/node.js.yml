@@ -49,13 +49,17 @@ jobs:
             #   if: always()
             # - run: npm test js11
               # if: always()
-            - name: Test Report
-              uses: actions/upload-artifact@v3
-              if: always()    # run this step even if previous step failed
-              with:
-                name: JEST Tests            # Name of the check run which will be created
-                path: reports/jest-*.xml    # Path to test results
+
+
+            # - name: Test Report
+            #   uses: actions/upload-artifact@v3
+            #   if: always()    # run this step even if previous step failed
+            #   with:
+            #     name: JEST Tests            # Name of the check run which will be created
+            #     path: reports/jest-*.xml    # Path to test results
                 # reporter: jest-junit        # Format of test results
+
+
             # - name: Create test summary
             #   uses: ./bin
             #   with:
@@ -66,3 +70,9 @@ jobs:
             #   with:
             #     name: test-summary
             #     path: reports/results.html
+            - uses: check-run-reporter/action@v2.11.1
+              # always run, otherwise you'll only see results for passing builds
+              if: ${{ always() }}
+              with:
+                token: ${{ secrets.CHECK_RUN_REPORTER_TOKEN }}
+                report: 'reports/junit/**/*.xml'
