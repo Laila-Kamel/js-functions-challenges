@@ -29,19 +29,23 @@ jobs:
             - name: run test
               run: npm test
               if: always()
+            - run: npm test -- --json --outputFile=outputJson.json
             # 
-            - name: Test Report
-              uses: dorny/test-reporter@v1
-              if: always()    # run this step even if previous step failed
-              with:
-                name: JEST Tests            # Name of the check run which will be created
-                path: test-*.xml    # Path to test results
-                reporter: jest-junit 
-            - name: Deploy
-              uses: formspree/cli-action@main
-              with:
-                deployKey: ${{ secrets.FORMSPREE_DEPLOY_KEY }}
-              if: always()
+            # - name: Test Report
+            #   uses: dorny/test-reporter@v1
+            #   if: always()    # run this step even if previous step failed
+            #   with:
+            #     name: JEST Tests            # Name of the check run which will be created
+            #     path: test-*.xml    # Path to test results
+            #     reporter: jest-junit 
+            # - name: Deploy
+            #   uses: formspree/cli-action@main
+            #   with:
+            #     deployKey: ${{ secrets.FORMSPREE_DEPLOY_KEY }}
+            #   if: always()
+
+
+
             # - run: npm test js2
             #   if: always()
             # - run: npm test js3
