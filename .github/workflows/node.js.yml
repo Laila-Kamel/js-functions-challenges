@@ -36,7 +36,7 @@ jobs:
               if: always()    # run this step even if previous step failed
               with:
                 name: JEST Tests            # Name of the check run which will be created
-                path: reports/jest-*.xml    # Path to test results
+                path: test-report.xml    # Path to test results
                 reporter: jest-junit 
             # - run: npm test js2
             #   if: always()
