@@ -265,7 +265,7 @@ describe("Testing filterBooksBySearch()", () => {
     });
 });
 
-describe("Testing formatStringArray()", () => {
+xdescribe("Testing formatStringArray()", () => {
   it("Should return a String", () => {
     expect(typeof formatStringArray(["  front"])).toBe("string");
   });
@@ -298,7 +298,7 @@ describe("Testing formatStringArray()", () => {
 });
 
 
-describe("Testing formatString()", () => {
+xdescribe("Testing formatString()", () => {
   it("Should NOT return undefined", () => {
     expect(formatString("  defined")).toBeDefined();
   });
@@ -344,7 +344,7 @@ describe("Testing formatString()", () => {
     it("Should format string as expected", () => {
         expect(formatString("test string")).toEqual(formattedStringArr);
         expect(formatString('898    te%^$£"&*()st str3552621ing')).toEqual(
-            formattedStringArr,
+            formattedStringArr
         );
     });
 

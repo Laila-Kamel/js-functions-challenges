@@ -215,7 +215,7 @@ export const formatStringArray = (stringArr) => {
 //     return cleanStr; 
 //   });
 
-  console.log(cleanedArr)
+
 
     const joinedString = cleanedArr.join("+");
 
@@ -266,7 +266,7 @@ export const formatString = (string) => {
  */
 
 export const fizzBuzz = (mixedArray) => {
-    return;
+  
   const newArr=mixedArray.filter((item)=>{
     if((typeof item=="number"&&item>0) ||(typeof item=="string"&&item.match(/^[^-]*[0-9]/)))
     return item;

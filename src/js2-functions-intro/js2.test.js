@@ -27,15 +27,10 @@ describe("createFullName() tests", () => {
 });
 
 describe("findSmallestNumber() tests", () => {
-<<<<<<< Updated upstream
-    it("Should have a return", () => {
-        expect(findSmallestNumber(100, 200)).toBeDefined();
-    });
-=======
+
   it("Should have a return", () => {
     expect(findSmallestNumber(100, 200)).toBeDefined();
   });
->>>>>>> Stashed changes
 
     it("Should return the smallest of two numbers", () => {
         expect(findSmallestNumber(100, 200)).toBe(100);
@@ -48,15 +43,10 @@ describe("findSmallestNumber() tests", () => {
 });
 
 describe("multiplyNumbers() tests", () => {
-<<<<<<< Updated upstream
-    it("Should have a return", () => {
-        expect(multiplyNumbers(2, 6)).toBeDefined();
-    });
-=======
+
   it("Should have a return", () => {
     expect(multiplyNumbers(2, 6)).toBeDefined();
   });
->>>>>>> Stashed changes
 
     it("Should multiply 3 and 6 to make 18", () => {
         expect(multiplyNumbers(3, 6)).toBe(18);
@@ -68,15 +58,10 @@ describe("multiplyNumbers() tests", () => {
 });
 
 describe("checkIfNewHighScore() tests", () => {
-<<<<<<< Updated upstream
-    it("Should have a return", () => {
-        expect(checkIfNewHighScore(300, 325)).toBeDefined();
-    });
-=======
+
   it("Should have a return", () => {
     expect(checkIfNewHighScore(300, 325)).toBeDefined();
   });
->>>>>>> Stashed changes
 
     it("Should tell me if I beat the high score", () => {
         expect(checkIfNewHighScore(350, 325)).toBe("You got a new high score!");
@@ -92,15 +77,10 @@ describe("checkIfNewHighScore() tests", () => {
 });
 
 describe("celsiusToFahrenheit() tests", () => {
-<<<<<<< Updated upstream
-    it("Should have a return", () => {
-        expect(celsiusToFahrenheit(15)).toBeDefined();
-    });
-=======
+
   it("Should have a return", () => {
     expect(celsiusToFahrenheit(15)).toBeDefined();
   });
->>>>>>> Stashed changes
 
     it("Should return a string", () => {
         expect(typeof celsiusToFahrenheit(15)).toBe("string");
@@ -114,15 +94,10 @@ describe("celsiusToFahrenheit() tests", () => {
 });
 
 describe("calculateLifeTimeSupply() tests", () => {
-<<<<<<< Updated upstream
-    it("Should have a return", () => {
-        expect(calculateLifetimeSupply(2, 25, 90)).toBeDefined();
-    });
-=======
+
   it("Should have a return", () => {
     expect(calculateLifetimeSupply(2, 25, 90)).toBeDefined();
   });
->>>>>>> Stashed changes
 
     it("Should calculate the correct number if given 2 snickers, 25 years old and 90 years lifeExpectancy", () => {
         expect(calculateLifetimeSupply(2, 25, 90)).toBe(47450);
@@ -134,15 +109,10 @@ describe("calculateLifeTimeSupply() tests", () => {
 });
 
 describe("getGrade() tests", () => {
-<<<<<<< Updated upstream
-    it("Should have a return", () => {
-        expect(getGrade(70)).toBeDefined();
-    });
-=======
+
   it("Should have a return", () => {
     expect(getGrade(70)).toBeDefined();
   });
->>>>>>> Stashed changes
 
     it("Should return 'Score Unavailable' if given an incorrect score", () => {
         expect(getGrade(-20)).toBe("Score unavailable");
@@ -183,15 +153,10 @@ describe("getGrade() tests", () => {
 });
 
 describe("calculateAreaOfCircle() tests", () => {
-<<<<<<< Updated upstream
-    it("Should have a return", () => {
-        expect(calculateAreaOfCircle(3)).toBeDefined();
-    });
-=======
+
   it("Should have a return", () => {
     expect(calculateAreaOfCircle(3)).toBeDefined();
   });
->>>>>>> Stashed changes
 
     it("Should return a number", () => {
         expect(typeof calculateAreaOfCircle(3)).toBe("number");
@@ -209,15 +174,10 @@ describe("calculateAreaOfCircle() tests", () => {
 });
 
 describe("getStudentSummary() tests", () => {
-<<<<<<< Updated upstream
-    it("Should have a return", () => {
-        expect(getStudentSummary(70, "John")).toBeDefined();
-    });
-=======
+
   it("Should have a return", () => {
     expect(getStudentSummary(70, "John")).toBeDefined();
   });
->>>>>>> Stashed changes
 
     it("Should return a string", () => {
         expect(typeof getStudentSummary(70, "John")).toBe("string");

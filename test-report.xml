@@ -1,36 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite id="0" name="C:\Users\laila\Documents\Nology\js-challenges\src\js1-types-and-control-flow\js1.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js1-types-and-control-flow\js1.test.js" hostname="localhost" tests="9" failures="0" time="1.793" timestamp="2022-09-01T10:55:49">
-    <properties>
-    </properties>
-    <testcase classname="createFullName() tests" name="createFullName() tests" time="0">
-    </testcase>
-    <testcase classname="findLargestNumber() tests" name="findLargestNumber() tests" time="0">
-    </testcase>
-    <testcase classname="addNumbers() tests" name="addNumbers() tests" time="0">
-    </testcase>
-    <testcase classname="findLengthOfPassword() tests" name="findLengthOfPassword() tests" time="0">
-    </testcase>
-    <testcase classname="findType() tests" name="findType() tests" time="0">
-    </testcase>
-    <testcase classname="getIsValidOnNameTag() tests" name="getIsValidOnNameTag() tests" time="0">
-    </testcase>
-    <testcase classname="convertStringToNumber() tests" name="convertStringToNumber() tests" time="0">
-    </testcase>
-    <testcase classname="getHasUppercaseLetters() tests" name="getHasUppercaseLetters() tests" time="0">
-    </testcase>
-    <testcase classname="convertPascalCaseToSnakeCase() tests" name="convertPascalCaseToSnakeCase() tests" time="0">
-    </testcase>
-    <system-out/>
-    <system-err/>
-  </testsuite>
-  <testsuite id="1" name="C:\Users\laila\Documents\Nology\js-challenges\src\js11-unit-testing\challenge.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js11-unit-testing\challenge.test.js" hostname="localhost" tests="0" failures="0" time="0" timestamp="1970-01-01T00:00:00">
-    <properties>
-    </properties>
-    <system-out/>
-    <system-err/>
-  </testsuite>
-  <testsuite id="2" name="C:\Users\laila\Documents\Nology\js-challenges\src\js11-unit-testing\solution.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js11-unit-testing\solution.test.js" hostname="localhost" tests="5" failures="0" time="1.839" timestamp="2022-09-01T10:55:49">
+  <testsuite id="0" name="C:\Users\laila\Documents\Nology\js-challenges\src\js11-unit-testing\solution.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js11-unit-testing\solution.test.js" hostname="localhost" tests="5" failures="0" time="1.745" timestamp="2022-09-01T12:11:04">
     <properties>
     </properties>
     <testcase classname="Should return correct string" name="Should return correct string" time="0">
@@ -46,7 +16,7 @@
     <system-out/>
     <system-err/>
   </testsuite>
-  <testsuite id="3" name="C:\Users\laila\Documents\Nology\js-challenges\src\js8-complex-data-types\js8.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js8-complex-data-types\js8.test.js" hostname="localhost" tests="24" failures="0" time="1.92" timestamp="2022-09-01T10:55:49">
+  <testsuite id="1" name="C:\Users\laila\Documents\Nology\js-challenges\src\js8-complex-data-types\js8.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js8-complex-data-types\js8.test.js" hostname="localhost" tests="24" failures="0" time="1.849" timestamp="2022-09-01T12:11:04">
     <properties>
     </properties>
     <testcase classname="getEmployeeQuotes() tests" name="Should return an array of just the quote from the data provided" time="0">
@@ -100,7 +70,219 @@
     <system-out/>
     <system-err/>
   </testsuite>
-  <testsuite id="4" name="C:\Users\laila\Documents\Nology\js-challenges\src\js6-objects\js6.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js6-objects\js6.test.js" hostname="localhost" tests="22" failures="0" time="1.866" timestamp="2022-09-01T10:55:49">
+  <testsuite id="2" name="C:\Users\laila\Documents\Nology\js-challenges\src\js2-functions-intro\js2.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js2-functions-intro\js2.test.js" hostname="localhost" tests="40" failures="0" time="1.856" timestamp="2022-09-01T12:11:04">
+    <properties>
+    </properties>
+    <testcase classname="createFullName() tests" name="Should have a return" time="0">
+    </testcase>
+    <testcase classname="createFullName() tests" name="Should work with basic inputs" time="0">
+    </testcase>
+    <testcase classname="createFullName() tests" name="Should work with arbritrary inputs" time="0">
+    </testcase>
+    <testcase classname="findSmallestNumber() tests" name="Should have a return" time="0">
+    </testcase>
+    <testcase classname="findSmallestNumber() tests" name="Should return the smallest of two numbers" time="0">
+    </testcase>
+    <testcase classname="findSmallestNumber() tests" name="Should work regardless of order" time="0">
+    </testcase>
+    <testcase classname="multiplyNumbers() tests" name="Should have a return" time="0">
+    </testcase>
+    <testcase classname="multiplyNumbers() tests" name="Should multiply 3 and 6 to make 18" time="0">
+    </testcase>
+    <testcase classname="multiplyNumbers() tests" name="Should multiply 12 and 6 to make 72" time="0">
+    </testcase>
+    <testcase classname="checkIfNewHighScore() tests" name="Should have a return" time="0">
+    </testcase>
+    <testcase classname="checkIfNewHighScore() tests" name="Should tell me if I beat the high score" time="0">
+    </testcase>
+    <testcase classname="checkIfNewHighScore() tests" name="Should tell me if the scores are the same" time="0">
+    </testcase>
+    <testcase classname="checkIfNewHighScore() tests" name="Should tell me if I don&apos;t beat the high score" time="0">
+    </testcase>
+    <testcase classname="celsiusToFahrenheit() tests" name="Should have a return" time="0">
+    </testcase>
+    <testcase classname="celsiusToFahrenheit() tests" name="Should return a string" time="0">
+    </testcase>
+    <testcase classname="celsiusToFahrenheit() tests" name="Should convert 15 C to 59 F" time="0">
+    </testcase>
+    <testcase classname="calculateLifeTimeSupply() tests" name="Should have a return" time="0">
+    </testcase>
+    <testcase classname="calculateLifeTimeSupply() tests" name="Should calculate the correct number if given 2 snickers, 25 years old and 90 years lifeExpectancy" time="0">
+    </testcase>
+    <testcase classname="calculateLifeTimeSupply() tests" name="Should calculate the correct number if given 1 snickers, 20 years old and 70 years lifeExpectancy" time="0">
+    </testcase>
+    <testcase classname="getGrade() tests" name="Should have a return" time="0">
+    </testcase>
+    <testcase classname="getGrade() tests" name="Should return &apos;Score Unavailable&apos; if given an incorrect score" time="0">
+    </testcase>
+    <testcase classname="getGrade() tests" name="Should return &apos;A&apos; for a score over 79" time="0">
+    </testcase>
+    <testcase classname="getGrade() tests" name="Should return &apos;B&apos; for a score between 79 - 70" time="0">
+    </testcase>
+    <testcase classname="getGrade() tests" name="Should return &apos;C&apos; for a score between 69 - 60" time="0">
+    </testcase>
+    <testcase classname="getGrade() tests" name="Should return &apos;D&apos; for a score between 59 - 50" time="0">
+    </testcase>
+    <testcase classname="getGrade() tests" name="Should return &apos;E&apos; for a score between 49 - 40" time="0">
+    </testcase>
+    <testcase classname="getGrade() tests" name="Should return &apos;F&apos; for a score between 39 - 0" time="0">
+    </testcase>
+    <testcase classname="calculateAreaOfCircle() tests" name="Should have a return" time="0">
+    </testcase>
+    <testcase classname="calculateAreaOfCircle() tests" name="Should return a number" time="0">
+    </testcase>
+    <testcase classname="calculateAreaOfCircle() tests" name="Should have the answer to two decimal places" time="0">
+    </testcase>
+    <testcase classname="calculateAreaOfCircle() tests" name="Should return the correct number for a range of radii" time="0">
+    </testcase>
+    <testcase classname="getStudentSummary() tests" name="Should have a return" time="0">
+    </testcase>
+    <testcase classname="getStudentSummary() tests" name="Should return a string" time="0">
+    </testcase>
+    <testcase classname="getStudentSummary() tests" name="Should return &apos;My apologies NAME, there&apos;s been an error in processing your grade.&apos; if a grade cannot be found" time="0">
+    </testcase>
+    <testcase classname="getStudentSummary() tests" name="Should return the correct summary for a score of over 79" time="0">
+    </testcase>
+    <testcase classname="getStudentSummary() tests" name="Should return the correct summary for a score betweem 79 - 70" time="0">
+    </testcase>
+    <testcase classname="getStudentSummary() tests" name="Should return the correct summary for a score betweem 69 - 60" time="0">
+    </testcase>
+    <testcase classname="getStudentSummary() tests" name="Should return the correct summary for a score betweem 59 - 50" time="0">
+    </testcase>
+    <testcase classname="getStudentSummary() tests" name="Should return the correct summary for a score betweem 49 - 40" time="0">
+    </testcase>
+    <testcase classname="getStudentSummary() tests" name="Should return the correct summary for a score betweem 39 - 0" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="3" name="C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js" hostname="localhost" tests="59" failures="0" time="1.894" timestamp="2022-09-01T12:11:04">
+    <properties>
+    </properties>
+    <testcase classname="Testing removeFalseValues()" name="Should return an array" time="0">
+    </testcase>
+    <testcase classname="Testing removeFalseValues()" name="Should return an array of Booleans" time="0">
+    </testcase>
+    <testcase classname="Testing removeFalseValues()" name="Should remove false values from an array" time="0">
+    </testcase>
+    <testcase classname="Testing removeFalseValues()" name="Should have the same amount of true values as the orginal array" time="0">
+    </testcase>
+    <testcase classname="Testing createPercentageList()" name="Should return an array" time="0">
+    </testcase>
+    <testcase classname="Testing createPercentageList()" name="Should return an array of Strings" time="0">
+    </testcase>
+    <testcase classname="Testing createPercentageList()" name="Should convert numbers into percentages" time="0">
+    </testcase>
+    <testcase classname="Testing createPercentageList()" name="Should match given array&apos;s length" time="0">
+    </testcase>
+    <testcase classname="Testing createListOfPoessessions()" name="Should return an array" time="0">
+    </testcase>
+    <testcase classname="Testing createListOfPoessessions()" name="Should return an array of Strings" time="0">
+    </testcase>
+    <testcase classname="Testing createListOfPoessessions()" name="Should prefix name as expected" time="0">
+    </testcase>
+    <testcase classname="Testing createListOfPoessessions()" name="Should match given Array&apos;s length" time="0">
+    </testcase>
+    <testcase classname="Testing convertStringToNumbersArray()" name="Should return an array" time="0">
+    </testcase>
+    <testcase classname="Testing convertStringToNumbersArray()" name="Should return an array of Numbers" time="0">
+    </testcase>
+    <testcase classname="Testing convertStringToNumbersArray()" name="Should convert string as expected" time="0">
+    </testcase>
+    <testcase classname="Testing convertStringToNumbersArray()" name="Should handle big inputs" time="0">
+    </testcase>
+    <testcase classname="Testing convertStringToNumbersArray()" name="Should handle single inputs" time="0">
+    </testcase>
+    <testcase classname="Testing createOddEvenArray()" name="Should return an array" time="0">
+    </testcase>
+    <testcase classname="Testing createOddEvenArray()" name="Should return an array of Strings" time="0">
+    </testcase>
+    <testcase classname="Testing createOddEvenArray()" name="Should convert string as expected" time="0">
+    </testcase>
+    <testcase classname="Testing createOddEvenArray()" name="Should handle big inputs" time="0">
+    </testcase>
+    <testcase classname="Testing createOddEvenArray()" name="Should handle single inputs" time="0">
+    </testcase>
+    <testcase classname="Testing filterBooksBySearch()" name="Should return an array" time="0">
+    </testcase>
+    <testcase classname="Testing filterBooksBySearch()" name="Should return an array of Strings" time="0">
+    </testcase>
+    <testcase classname="Testing filterBooksBySearch()" name="Should handle one match" time="0">
+    </testcase>
+    <testcase classname="Testing filterBooksBySearch()" name="Should handle multiple matches" time="0">
+    </testcase>
+    <testcase classname="Testing filterBooksBySearch()" name="Should handle large matches" time="0">
+    </testcase>
+    <testcase classname="Testing filterBooksBySearch()" name="Should handle single character matches" time="0">
+    </testcase>
+    <testcase classname="Testing filterBooksBySearch()" name="Should handle no matches" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should NOT return undefined" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should return an array" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should return an array of Strings" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should have the correct amount of Fizz" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should have Fizz in the correct index" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should have the correct amount of Buzz" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should have Buzz in the correct index" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should have the correct amount of FizzBuzz" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should have FizzBuzz in the correct index" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should NOT alter the length of a clean input" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should fizzBuzz a a clean array of numbers as strings as expected" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should  NOT alter the length of a clean array of numbers as strings" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should fizzBuzz a mixed input as expected" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should alter the length of a mixed input" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="4" name="C:\Users\laila\Documents\Nology\js-challenges\src\js9-apis-and-fetch\js9.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js9-apis-and-fetch\js9.test.js" hostname="localhost" tests="21" failures="0" time="1.798" timestamp="2022-09-01T12:11:04">
+    <properties>
+    </properties>
+    <testcase classname="getData() tests" name="Fetch should have been called once" time="0">
+    </testcase>
+    <testcase classname="getData() tests" name="Should return the data" time="0">
+    </testcase>
+    <testcase classname="getNames() tests" name="Fetch should have been called once" time="0">
+    </testcase>
+    <testcase classname="getNames() tests" name="Should return an array of names" time="0">
+    </testcase>
+    <testcase classname="getEmployedPeople() tests" name="Fetch should have been called once" time="0">
+    </testcase>
+    <testcase classname="getEmployedPeople() tests" name="Should return an array of employed people objects" time="0">
+    </testcase>
+    <testcase classname="findPersonWithId() tests" name="Should return a single object" time="0">
+    </testcase>
+    <testcase classname="findPersonWithId() tests" name="Should return a person with the id of 001" time="0">
+    </testcase>
+    <testcase classname="findPersonWithId() tests" name="Should return a person with the id of 005" time="0">
+    </testcase>
+    <testcase classname="findPersonWithId() tests" name="Should return a message of &apos;Person not found&apos; when no person has a matching ID" time="0">
+    </testcase>
+    <testcase classname="getPeopleWithMatchingInterests() tests" name="Should return an array if interests are found" time="0">
+    </testcase>
+    <testcase classname="getPeopleWithMatchingInterests() tests" name="Should return all people with a matching interest (swimming)" time="0">
+    </testcase>
+    <testcase classname="getPeopleWithMatchingInterests() tests" name="Should return all people with a matching interest (mma)" time="0">
+    </testcase>
+    <testcase classname="getPeopleWithMatchingInterests() tests" name="Should return &apos;No people with interest found&apos; if no matching interests on people" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="5" name="C:\Users\laila\Documents\Nology\js-challenges\src\js6-objects\js6.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js6-objects\js6.test.js" hostname="localhost" tests="22" failures="0" time="1.813" timestamp="2022-09-01T12:11:04">
     <properties>
     </properties>
     <testcase classname="getFurniturePrice() tests" name="Should return the correct price" time="0">
@@ -150,7 +332,49 @@
     <system-out/>
     <system-err/>
   </testsuite>
-  <testsuite id="5" name="C:\Users\laila\Documents\Nology\js-challenges\src\js3-arrays-and-for-loops\js3.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js3-arrays-and-for-loops\js3.test.js" hostname="localhost" tests="51" failures="0" time="1.962" timestamp="2022-09-01T10:55:48">
+  <testsuite id="6" name="C:\Users\laila\Documents\Nology\js-challenges\src\js7-classes\js7.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js7-classes\js7.test.js" hostname="localhost" tests="90" failures="0" time="1.914" timestamp="2022-09-01T12:11:04">
+    <properties>
+    </properties>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="7" name="C:\Users\laila\Documents\Nology\js-challenges\src\js1-types-and-control-flow\js1.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js1-types-and-control-flow\js1.test.js" hostname="localhost" tests="9" failures="1" time="1.875" timestamp="2022-09-01T12:11:04">
+    <properties>
+    </properties>
+    <testcase classname="createFullName() tests" name="createFullName() tests" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m&quot;John[7m Smith[27m&quot;[39m
+Received: [31m&quot;John&quot;[39m
+    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js1-types-and-control-flow\js1.test.js:17:28)
+    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="findLargestNumber() tests" name="findLargestNumber() tests" time="0">
+    </testcase>
+    <testcase classname="addNumbers() tests" name="addNumbers() tests" time="0">
+    </testcase>
+    <testcase classname="findLengthOfPassword() tests" name="findLengthOfPassword() tests" time="0">
+    </testcase>
+    <testcase classname="findType() tests" name="findType() tests" time="0">
+    </testcase>
+    <testcase classname="getIsValidOnNameTag() tests" name="getIsValidOnNameTag() tests" time="0">
+    </testcase>
+    <testcase classname="convertStringToNumber() tests" name="convertStringToNumber() tests" time="0">
+    </testcase>
+    <testcase classname="getHasUppercaseLetters() tests" name="getHasUppercaseLetters() tests" time="0">
+    </testcase>
+    <testcase classname="convertPascalCaseToSnakeCase() tests" name="convertPascalCaseToSnakeCase() tests" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="8" name="C:\Users\laila\Documents\Nology\js-challenges\src\js3-arrays-and-for-loops\js3.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js3-arrays-and-for-loops\js3.test.js" hostname="localhost" tests="51" failures="0" time="1.843" timestamp="2022-09-01T12:11:04">
     <properties>
     </properties>
     <testcase classname="Testing createRecipeString()" name="Should be defined" time="0">
@@ -258,405 +482,7 @@
     <system-out/>
     <system-err/>
   </testsuite>
-  <testsuite id="6" name="C:\Users\laila\Documents\Nology\js-challenges\src\js9-apis-and-fetch\js9.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js9-apis-and-fetch\js9.test.js" hostname="localhost" tests="21" failures="4" time="1.939" timestamp="2022-09-01T10:55:49">
-    <properties>
-    </properties>
-    <testcase classname="getData() tests" name="Fetch should have been called once" time="0">
-    </testcase>
-    <testcase classname="getData() tests" name="Should return the data" time="0">
-    </testcase>
-    <testcase classname="getNames() tests" name="Fetch should have been called once" time="0">
-    </testcase>
-    <testcase classname="getNames() tests" name="Should return an array of names" time="0">
-    </testcase>
-    <testcase classname="getEmployedPeople() tests" name="Fetch should have been called once" time="0">
-    </testcase>
-    <testcase classname="getEmployedPeople() tests" name="Should return an array of employed people objects" time="0">
-    </testcase>
-    <testcase classname="findPersonWithId() tests" name="Should return a single object" time="0">
-    </testcase>
-    <testcase classname="findPersonWithId() tests" name="Should return a person with the id of 001" time="0">
-    </testcase>
-    <testcase classname="findPersonWithId() tests" name="Should return a person with the id of 005" time="0">
-    </testcase>
-    <testcase classname="findPersonWithId() tests" name="Should return a message of &apos;Person not found&apos; when no person has a matching ID" time="0">
-    </testcase>
-    <testcase classname="getPeopleWithMatchingInterests() tests" name="Should return an array if interests are found" time="0">
-    </testcase>
-    <testcase classname="getPeopleWithMatchingInterests() tests" name="Should return all people with a matching interest (swimming)" time="0">
-    </testcase>
-    <testcase classname="getPeopleWithMatchingInterests() tests" name="Should return all people with a matching interest (mma)" time="0">
-    </testcase>
-    <testcase classname="getPeopleWithMatchingInterests() tests" name="Should return &apos;No people with interest found&apos; if no matching interests on people" time="0">
-    </testcase>
-    <testcase classname="setDescription() tests" name="Should not modify original data" time="0">
-    </testcase>
-    <testcase classname="setDescription() tests" name="Should add a description key" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveProperty[2m([22m[32mpath[39m[2m)[22m
-
-[1mMatcher error[22m: [31mreceived[39m value must not be null nor undefined
-
-Received has value: [31mundefined[39m
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js9-apis-and-fetch\js9.test.js:273:39)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="setDescription() tests" name="Should add accurate description to each object" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoStrictEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
-
-[32m- Expected  - 91[39m
-[31m+ Received  +  7[39m
-
-[2m  Array [[22m
-[32m-   Object {[39m
-[32m-     &quot;age&quot;: 47,[39m
-[32m-     &quot;description&quot;: &quot;My name is Peter, I am 47 years old and 170cm tall. I enjoy swimming, reading and juggling. I am currently employed&quot;,[39m
-[32m-     &quot;height&quot;: 170,[39m
-[32m-     &quot;id&quot;: &quot;001&quot;,[39m
-[32m-     &quot;interests&quot;: Array [[39m
-[32m-       &quot;swimming&quot;,[39m
-[32m-       &quot;reading&quot;,[39m
-[32m-       &quot;juggling&quot;,[39m
-[32m-     ],[39m
-[32m-     &quot;isEmployed&quot;: true,[39m
-[32m-     &quot;name&quot;: &quot;Peter&quot;,[39m
-[32m-   },[39m
-[32m-   Object {[39m
-[32m-     &quot;age&quot;: 16,[39m
-[32m-     &quot;description&quot;: &quot;My name is Georgia, I am 16 years old and 130cm tall. I enjoy writing, hiking and watching TV. I am not currently employed&quot;,[39m
-[32m-     &quot;height&quot;: 130,[39m
-[32m-     &quot;id&quot;: &quot;002&quot;,[39m
-[32m-     &quot;interests&quot;: Array [[39m
-[32m-       &quot;writing&quot;,[39m
-[32m-       &quot;hiking&quot;,[39m
-[32m-       &quot;watching TV&quot;,[39m
-[32m-     ],[39m
-[32m-     &quot;isEmployed&quot;: false,[39m
-[32m-     &quot;name&quot;: &quot;Georgia&quot;,[39m
-[32m-   },[39m
-[32m-   Object {[39m
-[32m-     &quot;age&quot;: 78,[39m
-[32m-     &quot;description&quot;: &quot;My name is Joanna, I am 78 years old and 140cm tall. I enjoy knitting, baking and MMA. I am not currently employed&quot;,[39m
-[32m-     &quot;height&quot;: 140,[39m
-[32m-     &quot;id&quot;: &quot;003&quot;,[39m
-[32m-     &quot;interests&quot;: Array [[39m
-[32m-       &quot;knitting&quot;,[39m
-[32m-       &quot;baking&quot;,[39m
-[32m-       &quot;MMA&quot;,[39m
-[32m-     ],[39m
-[32m-     &quot;isEmployed&quot;: false,[39m
-[32m-     &quot;name&quot;: &quot;Joanna&quot;,[39m
-[32m-   },[39m
-[32m-   Object {[39m
-[32m-     &quot;age&quot;: 32,[39m
-[32m-     &quot;description&quot;: &quot;My name is Buzz, I am 32 years old and 190cm tall. I enjoy shooting, MMA and writing. I am currently employed&quot;,[39m
-[32m-     &quot;height&quot;: 190,[39m
-[32m-     &quot;id&quot;: &quot;004&quot;,[39m
-[32m-     &quot;interests&quot;: Array [[39m
-[32m-       &quot;shooting&quot;,[39m
-[32m-       &quot;MMA&quot;,[39m
-[32m-       &quot;writing&quot;,[39m
-[32m-     ],[39m
-[32m-     &quot;isEmployed&quot;: true,[39m
-[32m-     &quot;name&quot;: &quot;Buzz&quot;,[39m
-[32m-   },[39m
-[32m-   Object {[39m
-[32m-     &quot;age&quot;: 22,[39m
-[32m-     &quot;description&quot;: &quot;My name is Travis, I am 22 years old and 160cm tall. I enjoy swimming, watching TV and knitting. I am currently employed&quot;,[39m
-[32m-     &quot;height&quot;: 160,[39m
-[32m-     &quot;id&quot;: &quot;005&quot;,[39m
-[32m-     &quot;interests&quot;: Array [[39m
-[32m-       &quot;swimming&quot;,[39m
-[32m-       &quot;watching TV&quot;,[39m
-[32m-       &quot;knitting&quot;,[39m
-[32m-     ],[39m
-[32m-     &quot;isEmployed&quot;: true,[39m
-[32m-     &quot;name&quot;: &quot;Travis&quot;,[39m
-[32m-   },[39m
-[32m-   Object {[39m
-[32m-     &quot;age&quot;: 27,[39m
-[32m-     &quot;description&quot;: &quot;My name is Paula, I am 27 years old and 160cm tall. I enjoy baking, hiking and shooting. I am not currently employed&quot;,[39m
-[32m-     &quot;height&quot;: 160,[39m
-[32m-     &quot;id&quot;: &quot;006&quot;,[39m
-[32m-     &quot;interests&quot;: Array [[39m
-[32m-       &quot;baking&quot;,[39m
-[32m-       &quot;hiking&quot;,[39m
-[32m-       &quot;shooting&quot;,[39m
-[32m-     ],[39m
-[32m-     &quot;isEmployed&quot;: false,[39m
-[32m-     &quot;name&quot;: &quot;Paula&quot;,[39m
-[32m-   },[39m
-[32m-   Object {[39m
-[32m-     &quot;age&quot;: 50,[39m
-[32m-     &quot;description&quot;: &quot;My name is J, I am 50 years old and 150cm tall. I enjoy reading, juggling and knitting. I am not currently employed&quot;,[39m
-[32m-     &quot;height&quot;: 150,[39m
-[32m-     &quot;id&quot;: &quot;007&quot;,[39m
-[32m-     &quot;interests&quot;: Array [[39m
-[32m-       &quot;reading&quot;,[39m
-[32m-       &quot;juggling&quot;,[39m
-[32m-       &quot;knitting&quot;,[39m
-[32m-     ],[39m
-[32m-     &quot;isEmployed&quot;: false,[39m
-[32m-     &quot;name&quot;: &quot;J&quot;,[39m
-[32m-   },[39m
-[31m+   undefined,[39m
-[31m+   undefined,[39m
-[31m+   undefined,[39m
-[31m+   undefined,[39m
-[31m+   undefined,[39m
-[31m+   undefined,[39m
-[31m+   undefined,[39m
-[2m  ][22m
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js9-apis-and-fetch\js9.test.js:278:35)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="setInterestDetails() tests" name="should call fetch twice" time="0">
-    </testcase>
-    <testcase classname="setInterestDetails() tests" name="Should not modify original data" time="0">
-    </testcase>
-    <testcase classname="setInterestDetails() tests" name="Should turn the interests key into an array of objects" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
-
-Expected: [32mtrue[39m
-Received: [31mfalse[39m
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js9-apis-and-fetch\js9.test.js:487:67)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="setInterestDetails() tests" name="Should match the exact dummy array of objects" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoStrictEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
-
-[32m- Expected  - 182[39m
-[31m+ Received  +  28[39m
-
-[2m  Array [[22m
-[32m-   Object {[39m
-[32m-     &quot;age&quot;: 47,[39m
-[32m-     &quot;height&quot;: 170,[39m
-[32m-     &quot;id&quot;: &quot;001&quot;,[39m
-[32m-     &quot;interests&quot;: Array [[39m
-[32m-       Object {[39m
-[32m-         &quot;costPerAnnum&quot;: 800,[39m
-[32m-         &quot;interest&quot;: &quot;swimming&quot;,[39m
-[32m-         &quot;isDoneInGroups&quot;: false,[39m
-[32m-         &quot;sizeOfCommunity&quot;: 20000000,[39m
-[32m-       },[39m
-[32m-       Object {[39m
-[32m-         &quot;costPerAnnum&quot;: 500,[39m
-[32m-         &quot;interest&quot;: &quot;reading&quot;,[39m
-[32m-         &quot;isDoneInGroups&quot;: false,[39m
-[32m-         &quot;sizeOfCommunity&quot;: 30000000,[39m
-[32m-       },[39m
-[32m-       Object {[39m
-[32m-         &quot;costPerAnnum&quot;: 100,[39m
-[32m-         &quot;interest&quot;: &quot;juggling&quot;,[39m
-[32m-         &quot;isDoneInGroups&quot;: false,[39m
-[32m-         &quot;sizeOfCommunity&quot;: 1000000,[39m
-[32m-       },[39m
-[31m+   Array [[39m
-[31m+     undefined,[39m
-[31m+     undefined,[39m
-[31m+     undefined,[39m
-[2m    ],[22m
-[32m-     &quot;isEmployed&quot;: true,[39m
-[32m-     &quot;name&quot;: &quot;Peter&quot;,[39m
-[32m-   },[39m
-[32m-   Object {[39m
-[32m-     &quot;age&quot;: 16,[39m
-[32m-     &quot;height&quot;: 130,[39m
-[32m-     &quot;id&quot;: &quot;002&quot;,[39m
-[32m-     &quot;interests&quot;: Array [[39m
-[32m-       Object {[39m
-[32m-         &quot;costPerAnnum&quot;: 200,[39m
-[32m-         &quot;interest&quot;: &quot;writing&quot;,[39m
-[32m-         &quot;isDoneInGroups&quot;: false,[39m
-[32m-         &quot;sizeOfCommunity&quot;: 15000000,[39m
-[32m-       },[39m
-[32m-       Object {[39m
-[32m-         &quot;costPerAnnum&quot;: 1000,[39m
-[32m-         &quot;interest&quot;: &quot;hiking&quot;,[39m
-[32m-         &quot;isDoneInGroups&quot;: true,[39m
-[32m-         &quot;sizeOfCommunity&quot;: 25000000,[39m
-[32m-       },[39m
-[32m-       Object {[39m
-[32m-         &quot;costPerAnnum&quot;: 200,[39m
-[32m-         &quot;interest&quot;: &quot;watching TV&quot;,[39m
-[32m-         &quot;isDoneInGroups&quot;: true,[39m
-[32m-         &quot;sizeOfCommunity&quot;: 450000000,[39m
-[32m-       },[39m
-[31m+   Array [[39m
-[31m+     undefined,[39m
-[31m+     undefined,[39m
-[31m+     undefined,[39m
-[2m    ],[22m
-[32m-     &quot;isEmployed&quot;: false,[39m
-[32m-     &quot;name&quot;: &quot;Georgia&quot;,[39m
-[32m-   },[39m
-[32m-   Object {[39m
-[32m-     &quot;age&quot;: 78,[39m
-[32m-     &quot;height&quot;: 140,[39m
-[32m-     &quot;id&quot;: &quot;003&quot;,[39m
-[32m-     &quot;interests&quot;: Array [[39m
-[32m-       Object {[39m
-[32m-         &quot;costPerAnnum&quot;: 400,[39m
-[32m-         &quot;interest&quot;: &quot;knitting&quot;,[39m
-[32m-         &quot;isDoneInGroups&quot;: false,[39m
-[32m-         &quot;sizeOfCommunity&quot;: 10000000,[39m
-[32m-       },[39m
-[32m-       Object {[39m
-[32m-         &quot;costPerAnnum&quot;: 400,[39m
-[32m-         &quot;interest&quot;: &quot;baking&quot;,[39m
-[32m-         &quot;isDoneInGroups&quot;: false,[39m
-[32m-         &quot;sizeOfCommunity&quot;: 20000000,[39m
-[32m-       },[39m
-[32m-       Object {[39m
-[32m-         &quot;costPerAnnum&quot;: 1000,[39m
-[32m-         &quot;interest&quot;: &quot;MMA&quot;,[39m
-[32m-         &quot;isDoneInGroups&quot;: true,[39m
-[32m-         &quot;sizeOfCommunity&quot;: 20000000,[39m
-[32m-       },[39m
-[31m+   Array [[39m
-[31m+     undefined,[39m
-[31m+     undefined,[39m
-[31m+     undefined,[39m
-[2m    ],[22m
-[32m-     &quot;isEmployed&quot;: false,[39m
-[32m-     &quot;name&quot;: &quot;Joanna&quot;,[39m
-[32m-   },[39m
-[32m-   Object {[39m
-[32m-     &quot;age&quot;: 32,[39m
-[32m-     &quot;height&quot;: 190,[39m
-[32m-     &quot;id&quot;: &quot;004&quot;,[39m
-[32m-     &quot;interests&quot;: Array [[39m
-[32m-       Object {[39m
-[32m-         &quot;costPerAnnum&quot;: 10000,[39m
-[32m-         &quot;interest&quot;: &quot;shooting&quot;,[39m
-[32m-         &quot;isDoneInGroups&quot;: true,[39m
-[32m-         &quot;sizeOfCommunity&quot;: 5000000,[39m
-[32m-       },[39m
-[32m-       Object {[39m
-[32m-         &quot;costPerAnnum&quot;: 1000,[39m
-[32m-         &quot;interest&quot;: &quot;MMA&quot;,[39m
-[32m-         &quot;isDoneInGroups&quot;: true,[39m
-[32m-         &quot;sizeOfCommunity&quot;: 20000000,[39m
-[32m-       },[39m
-[32m-       Object {[39m
-[32m-         &quot;costPerAnnum&quot;: 200,[39m
-[32m-         &quot;interest&quot;: &quot;writing&quot;,[39m
-[32m-         &quot;isDoneInGroups&quot;: false,[39m
-[32m-         &quot;sizeOfCommunity&quot;: 15000000,[39m
-[32m-       },[39m
-[31m+   Array [[39m
-[31m+     undefined,[39m
-[31m+     undefined,[39m
-[31m+     undefined,[39m
-[2m    ],[22m
-[32m-     &quot;isEmployed&quot;: true,[39m
-[32m-     &quot;name&quot;: &quot;Buzz&quot;,[39m
-[32m-   },[39m
-[32m-   Object {[39m
-[32m-     &quot;age&quot;: 22,[39m
-[32m-     &quot;height&quot;: 160,[39m
-[32m-     &quot;id&quot;: &quot;005&quot;,[39m
-[32m-     &quot;interests&quot;: Array [[39m
-[32m-       Object {[39m
-[32m-         &quot;costPerAnnum&quot;: 800,[39m
-[32m-         &quot;interest&quot;: &quot;swimming&quot;,[39m
-[32m-         &quot;isDoneInGroups&quot;: false,[39m
-[32m-         &quot;sizeOfCommunity&quot;: 20000000,[39m
-[32m-       },[39m
-[32m-       Object {[39m
-[32m-         &quot;costPerAnnum&quot;: 200,[39m
-[32m-         &quot;interest&quot;: &quot;watching TV&quot;,[39m
-[32m-         &quot;isDoneInGroups&quot;: true,[39m
-[32m-         &quot;sizeOfCommunity&quot;: 450000000,[39m
-[32m-       },[39m
-[32m-       Object {[39m
-[32m-         &quot;costPerAnnum&quot;: 400,[39m
-[32m-         &quot;interest&quot;: &quot;knitting&quot;,[39m
-[32m-         &quot;isDoneInGroups&quot;: false,[39m
-[32m-         &quot;sizeOfCommunity&quot;: 10000000,[39m
-[32m-       },[39m
-[31m+   Array [[39m
-[31m+     undefined,[39m
-[31m+     undefined,[39m
-[31m+     undefined,[39m
-[2m    ],[22m
-[32m-     &quot;isEmployed&quot;: true,[39m
-[32m-     &quot;name&quot;: &quot;Travis&quot;,[39m
-[32m-   },[39m
-[32m-   Object {[39m
-[32m-     &quot;age&quot;: 27,[39m
-[32m-     &quot;height&quot;: 160,[39m
-[32m-     &quot;id&quot;: &quot;006&quot;,[39m
-[32m-     &quot;interests&quot;: Array [[39m
-[32m-       Object {[39m
-[32m-         &quot;costPerAnnum&quot;: 400,[39m
-[32m-         &quot;interest&quot;: &quot;baking&quot;,[39m
-[32m-         &quot;isDoneInGroups&quot;: false,[39m
-[32m-         &quot;sizeOfCommunity&quot;: 20000000,[39m
-[32m-       },[39m
-[32m-       Object {[39m
-[32m-         &quot;costPerAnnum&quot;: 1000,[39m
-[32m-         &quot;interest&quot;: &quot;hiking&quot;,[39m
-[32m-         &quot;isDoneInGroups&quot;: true,[39m
-[32m-         &quot;sizeOfCommunity&quot;: 25000000,[39m
-[32m-       },[39m
-[32m-       Object {[39m
-[32m-         &quot;costPerAnnum&quot;: 10000,[39m
-[32m-         &quot;interest&quot;: &quot;shooting&quot;,[39m
-[32m-         &quot;isDoneInGroups&quot;: true,[39m
-[32m-         &quot;sizeOfCommunity&quot;: 5000000,[39m
-[32m-       },[39m
-[31m+   Array [[39m
-[31m+     undefined,[39m
-[31m+     undefined,[39m
-[31m+     undefined,[39m
-[2m    ],[22m
-[32m-     &quot;isEmployed&quot;: false,[39m
-[32m-     &quot;name&quot;: &quot;Paula&quot;,[39m
-[32m-   },[39m
-[32m-   Object {[39m
-[32m-     &quot;age&quot;: 50,[39m
-[32m-     &quot;height&quot;: 150,[39m
-[32m-     &quot;id&quot;: &quot;007&quot;,[39m
-[32m-     &quot;interests&quot;: Array [[39m
-[32m-       Object {[39m
-[32m-         &quot;costPerAnnum&quot;: 500,[39m
-[32m-         &quot;interest&quot;: &quot;reading&quot;,[39m
-[32m-         &quot;isDoneInGroups&quot;: false,[39m
-[32m-         &quot;sizeOfCommunity&quot;: 30000000,[39m
-[32m-       },[39m
-[32m-       Object {[39m
-[32m-         &quot;costPerAnnum&quot;: 100,[39m
-[32m-         &quot;interest&quot;: &quot;juggling&quot;,[39m
-[32m-         &quot;isDoneInGroups&quot;: false,[39m
-[32m-         &quot;sizeOfCommunity&quot;: 1000000,[39m
-[32m-       },[39m
-[32m-       Object {[39m
-[32m-         &quot;costPerAnnum&quot;: 400,[39m
-[32m-         &quot;interest&quot;: &quot;knitting&quot;,[39m
-[32m-         &quot;isDoneInGroups&quot;: false,[39m
-[32m-         &quot;sizeOfCommunity&quot;: 10000000,[39m
-[32m-       },[39m
-[31m+   Array [[39m
-[31m+     undefined,[39m
-[31m+     undefined,[39m
-[31m+     undefined,[39m
-[2m    ],[22m
-[32m-     &quot;isEmployed&quot;: false,[39m
-[32m-     &quot;name&quot;: &quot;J&quot;,[39m
-[32m-   },[39m
-[2m  ][22m
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js9-apis-and-fetch\js9.test.js:496:39)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <system-out/>
-    <system-err/>
-  </testsuite>
-  <testsuite id="7" name="C:\Users\laila\Documents\Nology\js-challenges\src\js5-arrays-iterators-part-2\js5.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js5-arrays-iterators-part-2\js5.test.js" hostname="localhost" tests="42" failures="0" time="1.953" timestamp="2022-09-01T10:55:49">
+  <testsuite id="9" name="C:\Users\laila\Documents\Nology\js-challenges\src\js5-arrays-iterators-part-2\js5.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js5-arrays-iterators-part-2\js5.test.js" hostname="localhost" tests="42" failures="0" time="1.854" timestamp="2022-09-01T12:11:04">
     <properties>
     </properties>
     <testcase classname="Testing totalScoresArr()" name="Should return a Number" time="0">
@@ -742,440 +568,6 @@ Received: [31mfalse[39m
     <testcase classname="Testing encryptString()" name="Should keep spaces between words" time="0">
     </testcase>
     <testcase classname="Testing encryptString()" name="Should handle empty input" time="0">
-    </testcase>
-    <system-out/>
-    <system-err/>
-  </testsuite>
-  <testsuite id="8" name="C:\Users\laila\Documents\Nology\js-challenges\src\js7-classes\js7.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js7-classes\js7.test.js" hostname="localhost" tests="90" failures="0" time="1.953" timestamp="2022-09-01T10:55:49">
-    <properties>
-    </properties>
-    <system-out/>
-    <system-err/>
-  </testsuite>
-  <testsuite id="9" name="C:\Users\laila\Documents\Nology\js-challenges\src\js2-functions-intro\js2.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js2-functions-intro\js2.test.js" hostname="localhost" tests="0" failures="0" time="0" timestamp="1970-01-01T00:00:00">
-    <properties>
-    </properties>
-    <system-out/>
-    <system-err/>
-  </testsuite>
-  <testsuite id="10" name="C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js" hostname="localhost" tests="59" failures="30" time="2.285" timestamp="2022-09-01T10:55:49">
-    <properties>
-    </properties>
-    <testcase classname="Testing removeFalseValues()" name="Should return an array" time="0">
-    </testcase>
-    <testcase classname="Testing removeFalseValues()" name="Should return an array of Booleans" time="0">
-    </testcase>
-    <testcase classname="Testing removeFalseValues()" name="Should remove false values from an array" time="0">
-    </testcase>
-    <testcase classname="Testing removeFalseValues()" name="Should have the same amount of true values as the orginal array" time="0">
-    </testcase>
-    <testcase classname="Testing createPercentageList()" name="Should return an array" time="0">
-    </testcase>
-    <testcase classname="Testing createPercentageList()" name="Should return an array of Strings" time="0">
-    </testcase>
-    <testcase classname="Testing createPercentageList()" name="Should convert numbers into percentages" time="0">
-    </testcase>
-    <testcase classname="Testing createPercentageList()" name="Should match given array&apos;s length" time="0">
-    </testcase>
-    <testcase classname="Testing createListOfPoessessions()" name="Should return an array" time="0">
-    </testcase>
-    <testcase classname="Testing createListOfPoessessions()" name="Should return an array of Strings" time="0">
-    </testcase>
-    <testcase classname="Testing createListOfPoessessions()" name="Should prefix name as expected" time="0">
-    </testcase>
-    <testcase classname="Testing createListOfPoessessions()" name="Should match given Array&apos;s length" time="0">
-    </testcase>
-    <testcase classname="Testing convertStringToNumbersArray()" name="Should return an array" time="0">
-    </testcase>
-    <testcase classname="Testing convertStringToNumbersArray()" name="Should return an array of Numbers" time="0">
-    </testcase>
-    <testcase classname="Testing convertStringToNumbersArray()" name="Should convert string as expected" time="0">
-    </testcase>
-    <testcase classname="Testing convertStringToNumbersArray()" name="Should handle big inputs" time="0">
-    </testcase>
-    <testcase classname="Testing convertStringToNumbersArray()" name="Should handle single inputs" time="0">
-    </testcase>
-    <testcase classname="Testing createOddEvenArray()" name="Should return an array" time="0">
-    </testcase>
-    <testcase classname="Testing createOddEvenArray()" name="Should return an array of Strings" time="0">
-    </testcase>
-    <testcase classname="Testing createOddEvenArray()" name="Should convert string as expected" time="0">
-    </testcase>
-    <testcase classname="Testing createOddEvenArray()" name="Should handle big inputs" time="0">
-    </testcase>
-    <testcase classname="Testing createOddEvenArray()" name="Should handle single inputs" time="0">
-    </testcase>
-    <testcase classname="Testing filterBooksBySearch()" name="Should return an array" time="0">
-    </testcase>
-    <testcase classname="Testing filterBooksBySearch()" name="Should return an array of Strings" time="0">
-    </testcase>
-    <testcase classname="Testing filterBooksBySearch()" name="Should handle one match" time="0">
-    </testcase>
-    <testcase classname="Testing filterBooksBySearch()" name="Should handle multiple matches" time="0">
-    </testcase>
-    <testcase classname="Testing filterBooksBySearch()" name="Should handle large matches" time="0">
-    </testcase>
-    <testcase classname="Testing filterBooksBySearch()" name="Should handle single character matches" time="0">
-    </testcase>
-    <testcase classname="Testing filterBooksBySearch()" name="Should handle no matches" time="0">
-    </testcase>
-    <testcase classname="Testing formatStringArray()" name="Should return a String" time="0">
-      <failure message="TypeError: Cannot read properties of undefined (reading &apos;join&apos;)
-    at formatStringArray (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\challenge.js:220:37)
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:270:19)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing formatStringArray()" name="Should NOT return undefined" time="0">
-      <failure message="TypeError: Cannot read properties of undefined (reading &apos;join&apos;)
-    at formatStringArray (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\challenge.js:220:37)
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:274:16)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing formatStringArray()" name="Should remove whitespace" time="0">
-      <failure message="TypeError: Cannot read properties of undefined (reading &apos;join&apos;)
-    at formatStringArray (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\challenge.js:220:37)
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:278:16)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing formatStringArray()" name="Should be lowercase" time="0">
-      <failure message="TypeError: Cannot read properties of undefined (reading &apos;join&apos;)
-    at formatStringArray (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\challenge.js:220:37)
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:284:16)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing formatStringArray()" name="Should format a single string as expected" time="0">
-      <failure message="TypeError: Cannot read properties of undefined (reading &apos;join&apos;)
-    at formatStringArray (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\challenge.js:220:37)
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:289:16)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing formatStringArray()" name="Should format multiple strings as expected" time="0">
-      <failure message="TypeError: Cannot read properties of undefined (reading &apos;join&apos;)
-    at formatStringArray (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\challenge.js:220:37)
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:293:16)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing formatString()" name="Should NOT return undefined" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeDefined[2m()[22m
-
-Received: [31mundefined[39m
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:303:39)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing formatString()" name="Should return an array" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
-
-Expected: [32mtrue[39m
-Received: [31mfalse[39m
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:307:61)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing formatString()" name="Should return an array of Strings" time="0">
-      <failure message="TypeError: Cannot read properties of undefined (reading &apos;every&apos;)
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:311:32)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing formatString()" name="Should remove numbers" time="0">
-      <failure message="TypeError: Cannot read properties of undefined (reading &apos;length&apos;)
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:318:16)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing formatString()" name="Should remove punctuation" time="0">
-      <failure message="TypeError: Cannot read properties of undefined (reading &apos;length&apos;)
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:324:13)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing formatString()" name="Should remove whitespace" time="0">
-      <failure message="TypeError: Cannot read properties of undefined (reading &apos;length&apos;)
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:330:16)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing formatString()" name="Should uppercase even index" time="0">
-      <failure message="TypeError: Cannot read properties of undefined (reading &apos;0&apos;)
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:335:16)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing formatString()" name="Should lowercase odd index" time="0">
-      <failure message="TypeError: Cannot read properties of undefined (reading &apos;1&apos;)
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:340:16)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing formatString()" name="Should format string as expected" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
-
-Expected: [32m[&quot;T&quot;, &quot;e&quot;, &quot;S&quot;, &quot;t&quot;, &quot;S&quot;, &quot;t&quot;, &quot;R&quot;, &quot;i&quot;, &quot;N&quot;, &quot;g&quot;][39m
-Received: [31mundefined[39m
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:345:45)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing formatString()" name="Should handle empty input" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
-
-Expected: [32m[][39m
-Received: [31mundefined[39m
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:352:34)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should NOT return undefined" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeDefined[2m()[22m
-
-Received: [31mundefined[39m
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:373:38)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should return an array" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
-
-Expected: [32mtrue[39m
-Received: [31mfalse[39m
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:377:53)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should return an array of Strings" time="0">
-      <failure message="TypeError: Cannot read properties of undefined (reading &apos;every&apos;)
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:381:32)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should have the correct amount of Fizz" time="0">
-      <failure message="TypeError: Cannot read properties of undefined (reading &apos;filter&apos;)
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:388:27)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should have Fizz in the correct index" time="0">
-      <failure message="TypeError: Cannot read properties of undefined (reading &apos;2&apos;)
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:396:25)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should have the correct amount of Buzz" time="0">
-      <failure message="TypeError: Cannot read properties of undefined (reading &apos;filter&apos;)
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:402:27)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should have Buzz in the correct index" time="0">
-      <failure message="TypeError: Cannot read properties of undefined (reading &apos;4&apos;)
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:410:25)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should have the correct amount of FizzBuzz" time="0">
-      <failure message="TypeError: Cannot read properties of undefined (reading &apos;filter&apos;)
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:416:31)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should have FizzBuzz in the correct index" time="0">
-      <failure message="TypeError: Cannot read properties of undefined (reading &apos;14&apos;)
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:426:29)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should NOT alter the length of a clean input" time="0">
-      <failure message="TypeError: Cannot read properties of undefined (reading &apos;length&apos;)
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:432:16)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should fizzBuzz a a clean array of numbers as strings as expected" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
-
-Expected: [32m[&quot;1&quot;, &quot;2&quot;, &quot;Fizz&quot;, &quot;4&quot;, &quot;Buzz&quot;, &quot;Fizz&quot;, &quot;7&quot;, &quot;8&quot;, &quot;Fizz&quot;, &quot;Buzz&quot;, &quot;11&quot;, &quot;Fizz&quot;, &quot;13&quot;, &quot;14&quot;, &quot;FizzBuzz&quot;][39m
-Received: [31mundefined[39m
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:436:44)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should  NOT alter the length of a clean array of numbers as strings" time="0">
-      <failure message="TypeError: Cannot read properties of undefined (reading &apos;length&apos;)
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:440:16)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should fizzBuzz a mixed input as expected" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
-
-Expected: [32m[&quot;Buzz&quot;, &quot;Fizz&quot;, &quot;7&quot;, &quot;Buzz&quot;, &quot;FizzBuzz&quot;][39m
-Received: [31mundefined[39m
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:444:38)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should alter the length of a mixed input" time="0">
-      <failure message="TypeError: Cannot read properties of undefined (reading &apos;length&apos;)
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js:454:16)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
     </testcase>
     <system-out/>
     <system-err/>
