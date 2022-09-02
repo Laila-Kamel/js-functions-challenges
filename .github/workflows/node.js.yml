@@ -29,7 +29,7 @@ jobs:
             - name: run test
               run: npm test
               if: always()
-            - working-directory: 'src/ProjectWithJestTests' 
+            - working-directory: 'src/' 
               run: npm run jest-report
               if: always()
             # 
