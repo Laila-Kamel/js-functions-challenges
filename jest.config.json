@@ -1,4 +1,0 @@
-{
-    "verbose":false,
-    "reporters":["./MyCustomReporter.js"]
-}
