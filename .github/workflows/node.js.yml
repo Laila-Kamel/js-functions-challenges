@@ -29,7 +29,7 @@ jobs:
             - name: run test
               run: npm test
               if: always()
-            - run: npm test --json --outputFile=jest-results.json
+            - run: npm run jest-report
               if: always()
             # 
             # - name: Test Report 
