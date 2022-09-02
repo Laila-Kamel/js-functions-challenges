@@ -48,7 +48,7 @@
     "jest-junit": "^14.0.1"
   },
   "jestJsonResult": {
-    "outputFile": "results.json"
+    "outputFile": "result.json"
   },
   "jest": {
     "testResultsProcessor": "./node_modules/jest-json-result"
