@@ -29,9 +29,12 @@ jobs:
             - name: run test
               run: npm test
               if: always()
-            - working-directory: 'src/' 
-              run: npm run jest-report
+            - run: npm run jest-report
               if: always()
+            - uses: tanmen/jest-reporter@v1
+              if: always()
+              # with:
+              #  github-token: ${{ secrets.GITHUB_TOKEN }}
             # 
             # - name: Test Report 
             #   uses: dorny/test-reporter@v1
