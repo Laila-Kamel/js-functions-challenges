@@ -1,6 +1,292 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite id="0" name="C:\Users\laila\Documents\Nology\js-challenges\src\js2-functions-intro\js2.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js2-functions-intro\js2.test.js" hostname="localhost" tests="40" failures="0" time="1.961" timestamp="2022-09-01T22:15:44">
+  <testsuite id="0" name="C:\Users\laila\Documents\Nology\js-challenges\src\js11-unit-testing\solution.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js11-unit-testing\solution.test.js" hostname="localhost" tests="5" failures="0" time="5.193" timestamp="2022-09-02T01:25:24">
+    <properties>
+    </properties>
+    <testcase classname="Should return correct string" name="Should return correct string" time="0">
+    </testcase>
+    <testcase classname="Should add two numbers together" name="Should add two numbers together" time="0">
+    </testcase>
+    <testcase classname="Should return string based on which number is larger" name="Should return string based on which number is larger" time="0">
+    </testcase>
+    <testcase classname="Should return new array of names based on length" name="Should return new array of names based on length" time="0">
+    </testcase>
+    <testcase classname="Should reduce all numbers correctly" name="Should reduce all numbers correctly" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="1" name="C:\Users\laila\Documents\Nology\js-challenges\src\js6-objects\js6.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js6-objects\js6.test.js" hostname="localhost" tests="22" failures="0" time="5.374" timestamp="2022-09-02T01:25:24">
+    <properties>
+    </properties>
+    <testcase classname="getFurniturePrice() tests" name="Should return the correct price" time="0">
+    </testcase>
+    <testcase classname="addFurnitureStorLocation() tests" name="Should return an object" time="0">
+    </testcase>
+    <testcase classname="addFurnitureStorLocation() tests" name="Should add a property of location" time="0">
+    </testcase>
+    <testcase classname="addFurnitureStorLocation() tests" name="Should still have all of the old properties" time="0">
+    </testcase>
+    <testcase classname="addFurnitureStorLocation() tests" name="Should exactly match given object" time="0">
+    </testcase>
+    <testcase classname="makeSpaceship() tests" name="Should return an object" time="0">
+    </testcase>
+    <testcase classname="makeSpaceship() tests" name="Should create an object with the provided arguments as values" time="0">
+    </testcase>
+    <testcase classname="setUserName() tests" name="Should return and object" time="0">
+    </testcase>
+    <testcase classname="setUserName() tests" name="Shouldn&apos;t change the username if one already exists" time="0">
+    </testcase>
+    <testcase classname="setUserName() tests" name="Should change the username if none exists" time="0">
+    </testcase>
+    <testcase classname="splitFullNameToFirstAndLast() tests" name="Should split up basic names" time="0">
+    </testcase>
+    <testcase classname="accessGivenKey() tests" name="Should access the eyeColour property" time="0">
+    </testcase>
+    <testcase classname="accessGivenKey() tests" name="Should access the height property" time="0">
+    </testcase>
+    <testcase classname="accessGivenKey() tests" name="Should access the name property" time="0">
+    </testcase>
+    <testcase classname="accessGivenKey() tests" name="Should access the likesIceCream property" time="0">
+    </testcase>
+    <testcase classname="getUserAddress() tests" name="Should be able to get the address from the user object" time="0">
+    </testcase>
+    <testcase classname="setSafeAllergens() tests" name="Should include all allergens as safe if none present on the object allergies array" time="0">
+    </testcase>
+    <testcase classname="setSafeAllergens() tests" name="Should include no allergens if all are found on the customer object" time="0">
+    </testcase>
+    <testcase classname="setSafeAllergens() tests" name="Should include some allergens if some are present on customer allergen list" time="0">
+    </testcase>
+    <testcase classname="mergeFurniture() tests" name="Should return an object which has a combination of both keys" time="0">
+    </testcase>
+    <testcase classname="mergeFurniture() tests" name="Should not modify the original object" time="0">
+    </testcase>
+    <testcase classname="mergeFurniture() tests" name="Should return an object which has the exact key value pairs of both objects" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="2" name="C:\Users\laila\Documents\Nology\js-challenges\src\js9-apis-and-fetch\js9.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js9-apis-and-fetch\js9.test.js" hostname="localhost" tests="21" failures="0" time="5.475" timestamp="2022-09-02T01:25:24">
+    <properties>
+    </properties>
+    <testcase classname="getData() tests" name="Fetch should have been called once" time="0">
+    </testcase>
+    <testcase classname="getData() tests" name="Should return the data" time="0">
+    </testcase>
+    <testcase classname="getNames() tests" name="Fetch should have been called once" time="0">
+    </testcase>
+    <testcase classname="getNames() tests" name="Should return an array of names" time="0">
+    </testcase>
+    <testcase classname="getEmployedPeople() tests" name="Fetch should have been called once" time="0">
+    </testcase>
+    <testcase classname="getEmployedPeople() tests" name="Should return an array of employed people objects" time="0">
+    </testcase>
+    <testcase classname="findPersonWithId() tests" name="Should return a single object" time="0">
+    </testcase>
+    <testcase classname="findPersonWithId() tests" name="Should return a person with the id of 001" time="0">
+    </testcase>
+    <testcase classname="findPersonWithId() tests" name="Should return a person with the id of 005" time="0">
+    </testcase>
+    <testcase classname="findPersonWithId() tests" name="Should return a message of &apos;Person not found&apos; when no person has a matching ID" time="0">
+    </testcase>
+    <testcase classname="getPeopleWithMatchingInterests() tests" name="Should return an array if interests are found" time="0">
+    </testcase>
+    <testcase classname="getPeopleWithMatchingInterests() tests" name="Should return all people with a matching interest (swimming)" time="0">
+    </testcase>
+    <testcase classname="getPeopleWithMatchingInterests() tests" name="Should return all people with a matching interest (mma)" time="0">
+    </testcase>
+    <testcase classname="getPeopleWithMatchingInterests() tests" name="Should return &apos;No people with interest found&apos; if no matching interests on people" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="3" name="C:\Users\laila\Documents\Nology\js-challenges\src\js7-classes\js7.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js7-classes\js7.test.js" hostname="localhost" tests="90" failures="0" time="5.584" timestamp="2022-09-02T01:25:24">
+    <properties>
+    </properties>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="4" name="C:\Users\laila\Documents\Nology\js-challenges\src\js8-complex-data-types\js8.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js8-complex-data-types\js8.test.js" hostname="localhost" tests="24" failures="0" time="5.587" timestamp="2022-09-02T01:25:24">
+    <properties>
+    </properties>
+    <testcase classname="getEmployeeQuotes() tests" name="Should return an array of just the quote from the data provided" time="0">
+    </testcase>
+    <testcase classname="getTheManagers() tests" name="Should return an array containing only employees where isManagement is true" time="0">
+    </testcase>
+    <testcase classname="getNumberOfKeys() tests" name="Should return a number" time="0">
+    </testcase>
+    <testcase classname="getNumberOfKeys() tests" name="Should accurately count the number of keys" time="0">
+    </testcase>
+    <testcase classname="findMostExpensiveItem() tests" name="Should return a single object" time="0">
+    </testcase>
+    <testcase classname="findMostExpensiveItem() tests" name="Should return the most expensive item which is a hoodie" time="0">
+    </testcase>
+    <testcase classname="settotalPrice() tests" name="Should return an array" time="0">
+    </testcase>
+    <testcase classname="settotalPrice() tests" name="Should not modify original array of objects" time="0">
+    </testcase>
+    <testcase classname="settotalPrice() tests" name="Should add a totalPrice key to each object" time="0">
+    </testcase>
+    <testcase classname="settotalPrice() tests" name="Should accurately total each shopping item" time="0">
+    </testcase>
+    <testcase classname="totalShoppingBasket() tests" name="Should return a number" time="0">
+    </testcase>
+    <testcase classname="totalShoppingBasket() tests" name="Should accurately total all objects" time="0">
+    </testcase>
+    <testcase classname="getImportantKeys() tests" name="Should not modify the original array" time="0">
+    </testcase>
+    <testcase classname="getImportantKeys() tests" name="Should remove unneeded keys from the objects" time="0">
+    </testcase>
+    <testcase classname="getImportantKeys() tests" name="Should alter every item in the array" time="0">
+    </testcase>
+    <testcase classname="setImportantKeys() tests" name="Should not modify the original array" time="0">
+    </testcase>
+    <testcase classname="setImportantKeys() tests" name="Should add missing keys" time="0">
+    </testcase>
+    <testcase classname="setImportantKeys() tests" name="should not modify existing values" time="0">
+    </testcase>
+    <testcase classname="setImportantKeys() tests" name="Should match this exact array of objects" time="0">
+    </testcase>
+    <testcase classname="cleanCocktailResponseData() tests" name="Should not mutate the original array" time="0">
+    </testcase>
+    <testcase classname="cleanCocktailResponseData() tests" name="Should remove old keys" time="0">
+    </testcase>
+    <testcase classname="cleanCocktailResponseData() tests" name="Should rename keys" time="0">
+    </testcase>
+    <testcase classname="cleanCocktailResponseData() tests" name="Should add an array for the ingredients" time="0">
+    </testcase>
+    <testcase classname="cleanCocktailResponseData() tests" name="Should match given structure" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="5" name="C:\Users\laila\Documents\Nology\js-challenges\src\js1-types-and-control-flow\js1.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js1-types-and-control-flow\js1.test.js" hostname="localhost" tests="9" failures="1" time="5.635" timestamp="2022-09-02T01:25:24">
+    <properties>
+    </properties>
+    <testcase classname="createFullName() tests" name="createFullName() tests" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m&quot;John[7m Smith[27m&quot;[39m
+Received: [31m&quot;John&quot;[39m
+    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js1-types-and-control-flow\js1.test.js:17:28)
+    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="findLargestNumber() tests" name="findLargestNumber() tests" time="0">
+    </testcase>
+    <testcase classname="addNumbers() tests" name="addNumbers() tests" time="0">
+    </testcase>
+    <testcase classname="findLengthOfPassword() tests" name="findLengthOfPassword() tests" time="0">
+    </testcase>
+    <testcase classname="findType() tests" name="findType() tests" time="0">
+    </testcase>
+    <testcase classname="getIsValidOnNameTag() tests" name="getIsValidOnNameTag() tests" time="0">
+    </testcase>
+    <testcase classname="convertStringToNumber() tests" name="convertStringToNumber() tests" time="0">
+    </testcase>
+    <testcase classname="getHasUppercaseLetters() tests" name="getHasUppercaseLetters() tests" time="0">
+    </testcase>
+    <testcase classname="convertPascalCaseToSnakeCase() tests" name="convertPascalCaseToSnakeCase() tests" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="6" name="C:\Users\laila\Documents\Nology\js-challenges\src\js5-arrays-iterators-part-2\js5.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js5-arrays-iterators-part-2\js5.test.js" hostname="localhost" tests="42" failures="0" time="5.662" timestamp="2022-09-02T01:25:24">
+    <properties>
+    </properties>
+    <testcase classname="Testing totalScoresArr()" name="Should return a Number" time="0">
+    </testcase>
+    <testcase classname="Testing totalScoresArr()" name="Should total numbers" time="0">
+    </testcase>
+    <testcase classname="Testing reverseString()" name="Should return a String" time="0">
+    </testcase>
+    <testcase classname="Testing reverseString()" name="Should not alter a single letter" time="0">
+    </testcase>
+    <testcase classname="Testing reverseString()" name="Should be the same size as input" time="0">
+    </testcase>
+    <testcase classname="Testing reverseString()" name="Should reverse a String" time="0">
+    </testcase>
+    <testcase classname="Testing sortCharactersAlphabetically()" name="Should return an Array" time="0">
+    </testcase>
+    <testcase classname="Testing sortCharactersAlphabetically()" name="Should return an Array of Strings" time="0">
+    </testcase>
+    <testcase classname="Testing sortCharactersAlphabetically()" name="Should sort lowercase letters alphabetically" time="0">
+    </testcase>
+    <testcase classname="Testing sortCharactersAlphabetically()" name="Should sort uppercase letters alphabetically" time="0">
+    </testcase>
+    <testcase classname="Testing sortCharactersAlphabetically()" name="Should sort Uppercase and lowercase characters" time="0">
+    </testcase>
+    <testcase classname="Testing sortCharactersAlphabetically()" name="Should be the same length as the input" time="0">
+    </testcase>
+    <testcase classname="Testing sortNumbersHighToLow()" name="Should return an Array" time="0">
+    </testcase>
+    <testcase classname="Testing sortNumbersHighToLow()" name="Should return an Array of Numbers" time="0">
+    </testcase>
+    <testcase classname="Testing sortNumbersHighToLow()" name="Should not alter single numbers" time="0">
+    </testcase>
+    <testcase classname="Testing sortNumbersHighToLow()" name="Should sort multiple numbers high to low" time="0">
+    </testcase>
+    <testcase classname="Testing sortNumbersHighToLow()" name="Should not alter already sorted array&apos;s" time="0">
+    </testcase>
+    <testcase classname="Testing sortNumbersHighToLow()" name="Should have the same length as input" time="0">
+    </testcase>
+    <testcase classname="Testing checkItemInstock()" name="Should return a String" time="0">
+    </testcase>
+    <testcase classname="Testing checkItemInstock()" name="Should handle single items from the stock list" time="0">
+    </testcase>
+    <testcase classname="Testing checkItemInstock()" name="Should handle single no match items" time="0">
+    </testcase>
+    <testcase classname="Testing checkItemInstock()" name="Should handle every item in the stock list" time="0">
+    </testcase>
+    <testcase classname="Testing checkPrimaryColours()" name="Should return a Boolean" time="0">
+    </testcase>
+    <testcase classname="Testing checkPrimaryColours()" name="Should return true if all are primary" time="0">
+    </testcase>
+    <testcase classname="Testing checkPrimaryColours()" name="Should return false if all aren&apos;t primary" time="0">
+    </testcase>
+    <testcase classname="Testing checkPrimaryColours()" name="Should handle large inputs" time="0">
+    </testcase>
+    <testcase classname="Testing checkStringPalindrome()" name="Should return a Boolean" time="0">
+    </testcase>
+    <testcase classname="Testing checkStringPalindrome()" name="Should return true for a palindrome" time="0">
+    </testcase>
+    <testcase classname="Testing checkStringPalindrome()" name="Should return false for a string" time="0">
+    </testcase>
+    <testcase classname="Testing checkStringPalindrome()" name="Should return true for a palindrome with spaces" time="0">
+    </testcase>
+    <testcase classname="Testing checkStringPalindrome()" name="Should return false for a string with spaces" time="0">
+    </testcase>
+    <testcase classname="Testing totalNestedScoresArr()" name="Should return an Array" time="0">
+    </testcase>
+    <testcase classname="Testing totalNestedScoresArr()" name="Should return array of numbers " time="0">
+    </testcase>
+    <testcase classname="Testing totalNestedScoresArr()" name="Should total nested array of scores" time="0">
+    </testcase>
+    <testcase classname="Testing totalNestedScoresArr()" name="Should not alter single scores" time="0">
+    </testcase>
+    <testcase classname="Testing totalNestedScoresArr()" name="Should return a new array and not modify the old one" time="0">
+    </testcase>
+    <testcase classname="Testing encryptString()" name="Should return a string" time="0">
+    </testcase>
+    <testcase classname="Testing encryptString()" name="Should NOT encrypt three letters" time="0">
+    </testcase>
+    <testcase classname="Testing encryptString()" name="Should encrypt after three plus letters" time="0">
+    </testcase>
+    <testcase classname="Testing encryptString()" name="Should encrypt large words" time="0">
+    </testcase>
+    <testcase classname="Testing encryptString()" name="Should keep spaces between words" time="0">
+    </testcase>
+    <testcase classname="Testing encryptString()" name="Should handle empty input" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="7" name="C:\Users\laila\Documents\Nology\js-challenges\src\js2-functions-intro\js2.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js2-functions-intro\js2.test.js" hostname="localhost" tests="40" failures="0" time="5.682" timestamp="2022-09-02T01:25:24">
     <properties>
     </properties>
     <testcase classname="createFullName() tests" name="Should have a return" time="0">
@@ -86,93 +372,99 @@
     <system-out/>
     <system-err/>
   </testsuite>
-  <testsuite id="1" name="C:\Users\laila\Documents\Nology\js-challenges\src\js6-objects\js6.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js6-objects\js6.test.js" hostname="localhost" tests="22" failures="0" time="1.969" timestamp="2022-09-01T22:15:44">
+  <testsuite id="8" name="C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js" hostname="localhost" tests="59" failures="0" time="5.908" timestamp="2022-09-02T01:25:24">
     <properties>
     </properties>
-    <testcase classname="getFurniturePrice() tests" name="Should return the correct price" time="0">
+    <testcase classname="Testing removeFalseValues()" name="Should return an array" time="0">
     </testcase>
-    <testcase classname="addFurnitureStorLocation() tests" name="Should return an object" time="0">
+    <testcase classname="Testing removeFalseValues()" name="Should return an array of Booleans" time="0">
     </testcase>
-    <testcase classname="addFurnitureStorLocation() tests" name="Should add a property of location" time="0">
+    <testcase classname="Testing removeFalseValues()" name="Should remove false values from an array" time="0">
     </testcase>
-    <testcase classname="addFurnitureStorLocation() tests" name="Should still have all of the old properties" time="0">
+    <testcase classname="Testing removeFalseValues()" name="Should have the same amount of true values as the orginal array" time="0">
     </testcase>
-    <testcase classname="addFurnitureStorLocation() tests" name="Should exactly match given object" time="0">
+    <testcase classname="Testing createPercentageList()" name="Should return an array" time="0">
     </testcase>
-    <testcase classname="makeSpaceship() tests" name="Should return an object" time="0">
+    <testcase classname="Testing createPercentageList()" name="Should return an array of Strings" time="0">
     </testcase>
-    <testcase classname="makeSpaceship() tests" name="Should create an object with the provided arguments as values" time="0">
+    <testcase classname="Testing createPercentageList()" name="Should convert numbers into percentages" time="0">
     </testcase>
-    <testcase classname="setUserName() tests" name="Should return and object" time="0">
+    <testcase classname="Testing createPercentageList()" name="Should match given array&apos;s length" time="0">
     </testcase>
-    <testcase classname="setUserName() tests" name="Shouldn&apos;t change the username if one already exists" time="0">
+    <testcase classname="Testing createListOfPoessessions()" name="Should return an array" time="0">
     </testcase>
-    <testcase classname="setUserName() tests" name="Should change the username if none exists" time="0">
+    <testcase classname="Testing createListOfPoessessions()" name="Should return an array of Strings" time="0">
     </testcase>
-    <testcase classname="splitFullNameToFirstAndLast() tests" name="Should split up basic names" time="0">
+    <testcase classname="Testing createListOfPoessessions()" name="Should prefix name as expected" time="0">
     </testcase>
-    <testcase classname="accessGivenKey() tests" name="Should access the eyeColour property" time="0">
+    <testcase classname="Testing createListOfPoessessions()" name="Should match given Array&apos;s length" time="0">
     </testcase>
-    <testcase classname="accessGivenKey() tests" name="Should access the height property" time="0">
+    <testcase classname="Testing convertStringToNumbersArray()" name="Should return an array" time="0">
     </testcase>
-    <testcase classname="accessGivenKey() tests" name="Should access the name property" time="0">
+    <testcase classname="Testing convertStringToNumbersArray()" name="Should return an array of Numbers" time="0">
     </testcase>
-    <testcase classname="accessGivenKey() tests" name="Should access the likesIceCream property" time="0">
+    <testcase classname="Testing convertStringToNumbersArray()" name="Should convert string as expected" time="0">
     </testcase>
-    <testcase classname="getUserAddress() tests" name="Should be able to get the address from the user object" time="0">
+    <testcase classname="Testing convertStringToNumbersArray()" name="Should handle big inputs" time="0">
     </testcase>
-    <testcase classname="setSafeAllergens() tests" name="Should include all allergens as safe if none present on the object allergies array" time="0">
+    <testcase classname="Testing convertStringToNumbersArray()" name="Should handle single inputs" time="0">
     </testcase>
-    <testcase classname="setSafeAllergens() tests" name="Should include no allergens if all are found on the customer object" time="0">
+    <testcase classname="Testing createOddEvenArray()" name="Should return an array" time="0">
     </testcase>
-    <testcase classname="setSafeAllergens() tests" name="Should include some allergens if some are present on customer allergen list" time="0">
+    <testcase classname="Testing createOddEvenArray()" name="Should return an array of Strings" time="0">
     </testcase>
-    <testcase classname="mergeFurniture() tests" name="Should return an object which has a combination of both keys" time="0">
+    <testcase classname="Testing createOddEvenArray()" name="Should convert string as expected" time="0">
     </testcase>
-    <testcase classname="mergeFurniture() tests" name="Should not modify the original object" time="0">
+    <testcase classname="Testing createOddEvenArray()" name="Should handle big inputs" time="0">
     </testcase>
-    <testcase classname="mergeFurniture() tests" name="Should return an object which has the exact key value pairs of both objects" time="0">
+    <testcase classname="Testing createOddEvenArray()" name="Should handle single inputs" time="0">
+    </testcase>
+    <testcase classname="Testing filterBooksBySearch()" name="Should return an array" time="0">
+    </testcase>
+    <testcase classname="Testing filterBooksBySearch()" name="Should return an array of Strings" time="0">
+    </testcase>
+    <testcase classname="Testing filterBooksBySearch()" name="Should handle one match" time="0">
+    </testcase>
+    <testcase classname="Testing filterBooksBySearch()" name="Should handle multiple matches" time="0">
+    </testcase>
+    <testcase classname="Testing filterBooksBySearch()" name="Should handle large matches" time="0">
+    </testcase>
+    <testcase classname="Testing filterBooksBySearch()" name="Should handle single character matches" time="0">
+    </testcase>
+    <testcase classname="Testing filterBooksBySearch()" name="Should handle no matches" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should NOT return undefined" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should return an array" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should return an array of Strings" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should have the correct amount of Fizz" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should have Fizz in the correct index" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should have the correct amount of Buzz" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should have Buzz in the correct index" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should have the correct amount of FizzBuzz" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should have FizzBuzz in the correct index" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should NOT alter the length of a clean input" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should fizzBuzz a a clean array of numbers as strings as expected" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should  NOT alter the length of a clean array of numbers as strings" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should fizzBuzz a mixed input as expected" time="0">
+    </testcase>
+    <testcase classname="Testing fizzBuzz()" name="Should alter the length of a mixed input" time="0">
     </testcase>
     <system-out/>
     <system-err/>
   </testsuite>
-  <testsuite id="2" name="C:\Users\laila\Documents\Nology\js-challenges\src\js1-types-and-control-flow\js1.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js1-types-and-control-flow\js1.test.js" hostname="localhost" tests="9" failures="1" time="1.922" timestamp="2022-09-01T22:15:44">
-    <properties>
-    </properties>
-    <testcase classname="createFullName() tests" name="createFullName() tests" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
-
-Expected: [32m&quot;John[7m Smith[27m&quot;[39m
-Received: [31m&quot;John&quot;[39m
-    at Object.&lt;anonymous&gt; (C:\Users\laila\Documents\Nology\js-challenges\src\js1-types-and-control-flow\js1.test.js:17:28)
-    at Object.asyncJestTest (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\laila\Documents\Nology\js-challenges\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="findLargestNumber() tests" name="findLargestNumber() tests" time="0">
-    </testcase>
-    <testcase classname="addNumbers() tests" name="addNumbers() tests" time="0">
-    </testcase>
-    <testcase classname="findLengthOfPassword() tests" name="findLengthOfPassword() tests" time="0">
-    </testcase>
-    <testcase classname="findType() tests" name="findType() tests" time="0">
-    </testcase>
-    <testcase classname="getIsValidOnNameTag() tests" name="getIsValidOnNameTag() tests" time="0">
-    </testcase>
-    <testcase classname="convertStringToNumber() tests" name="convertStringToNumber() tests" time="0">
-    </testcase>
-    <testcase classname="getHasUppercaseLetters() tests" name="getHasUppercaseLetters() tests" time="0">
-    </testcase>
-    <testcase classname="convertPascalCaseToSnakeCase() tests" name="convertPascalCaseToSnakeCase() tests" time="0">
-    </testcase>
-    <system-out/>
-    <system-err/>
-  </testsuite>
-  <testsuite id="3" name="C:\Users\laila\Documents\Nology\js-challenges\src\js3-arrays-and-for-loops\js3.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js3-arrays-and-for-loops\js3.test.js" hostname="localhost" tests="51" failures="0" time="2.009" timestamp="2022-09-01T22:15:44">
+  <testsuite id="9" name="C:\Users\laila\Documents\Nology\js-challenges\src\js3-arrays-and-for-loops\js3.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js3-arrays-and-for-loops\js3.test.js" hostname="localhost" tests="51" failures="0" time="5.998" timestamp="2022-09-02T01:25:24">
     <properties>
     </properties>
     <testcase classname="Testing createRecipeString()" name="Should be defined" time="0">
@@ -277,298 +569,6 @@ Received: [31m&quot;John&quot;[39m
     </testcase>
     <testcase classname="Testing encryptString()" name="Should handle empty input" time="0">
     </testcase>
-    <system-out/>
-    <system-err/>
-  </testsuite>
-  <testsuite id="4" name="C:\Users\laila\Documents\Nology\js-challenges\src\js9-apis-and-fetch\js9.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js9-apis-and-fetch\js9.test.js" hostname="localhost" tests="21" failures="0" time="1.987" timestamp="2022-09-01T22:15:44">
-    <properties>
-    </properties>
-    <testcase classname="getData() tests" name="Fetch should have been called once" time="0">
-    </testcase>
-    <testcase classname="getData() tests" name="Should return the data" time="0">
-    </testcase>
-    <testcase classname="getNames() tests" name="Fetch should have been called once" time="0">
-    </testcase>
-    <testcase classname="getNames() tests" name="Should return an array of names" time="0">
-    </testcase>
-    <testcase classname="getEmployedPeople() tests" name="Fetch should have been called once" time="0">
-    </testcase>
-    <testcase classname="getEmployedPeople() tests" name="Should return an array of employed people objects" time="0">
-    </testcase>
-    <testcase classname="findPersonWithId() tests" name="Should return a single object" time="0">
-    </testcase>
-    <testcase classname="findPersonWithId() tests" name="Should return a person with the id of 001" time="0">
-    </testcase>
-    <testcase classname="findPersonWithId() tests" name="Should return a person with the id of 005" time="0">
-    </testcase>
-    <testcase classname="findPersonWithId() tests" name="Should return a message of &apos;Person not found&apos; when no person has a matching ID" time="0">
-    </testcase>
-    <testcase classname="getPeopleWithMatchingInterests() tests" name="Should return an array if interests are found" time="0">
-    </testcase>
-    <testcase classname="getPeopleWithMatchingInterests() tests" name="Should return all people with a matching interest (swimming)" time="0">
-    </testcase>
-    <testcase classname="getPeopleWithMatchingInterests() tests" name="Should return all people with a matching interest (mma)" time="0">
-    </testcase>
-    <testcase classname="getPeopleWithMatchingInterests() tests" name="Should return &apos;No people with interest found&apos; if no matching interests on people" time="0">
-    </testcase>
-    <system-out/>
-    <system-err/>
-  </testsuite>
-  <testsuite id="5" name="C:\Users\laila\Documents\Nology\js-challenges\src\js11-unit-testing\solution.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js11-unit-testing\solution.test.js" hostname="localhost" tests="5" failures="0" time="1.979" timestamp="2022-09-01T22:15:44">
-    <properties>
-    </properties>
-    <testcase classname="Should return correct string" name="Should return correct string" time="0">
-    </testcase>
-    <testcase classname="Should add two numbers together" name="Should add two numbers together" time="0">
-    </testcase>
-    <testcase classname="Should return string based on which number is larger" name="Should return string based on which number is larger" time="0">
-    </testcase>
-    <testcase classname="Should return new array of names based on length" name="Should return new array of names based on length" time="0">
-    </testcase>
-    <testcase classname="Should reduce all numbers correctly" name="Should reduce all numbers correctly" time="0">
-    </testcase>
-    <system-out/>
-    <system-err/>
-  </testsuite>
-  <testsuite id="6" name="C:\Users\laila\Documents\Nology\js-challenges\src\js8-complex-data-types\js8.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js8-complex-data-types\js8.test.js" hostname="localhost" tests="24" failures="0" time="2.025" timestamp="2022-09-01T22:15:44">
-    <properties>
-    </properties>
-    <testcase classname="getEmployeeQuotes() tests" name="Should return an array of just the quote from the data provided" time="0">
-    </testcase>
-    <testcase classname="getTheManagers() tests" name="Should return an array containing only employees where isManagement is true" time="0">
-    </testcase>
-    <testcase classname="getNumberOfKeys() tests" name="Should return a number" time="0">
-    </testcase>
-    <testcase classname="getNumberOfKeys() tests" name="Should accurately count the number of keys" time="0">
-    </testcase>
-    <testcase classname="findMostExpensiveItem() tests" name="Should return a single object" time="0">
-    </testcase>
-    <testcase classname="findMostExpensiveItem() tests" name="Should return the most expensive item which is a hoodie" time="0">
-    </testcase>
-    <testcase classname="settotalPrice() tests" name="Should return an array" time="0">
-    </testcase>
-    <testcase classname="settotalPrice() tests" name="Should not modify original array of objects" time="0">
-    </testcase>
-    <testcase classname="settotalPrice() tests" name="Should add a totalPrice key to each object" time="0">
-    </testcase>
-    <testcase classname="settotalPrice() tests" name="Should accurately total each shopping item" time="0">
-    </testcase>
-    <testcase classname="totalShoppingBasket() tests" name="Should return a number" time="0">
-    </testcase>
-    <testcase classname="totalShoppingBasket() tests" name="Should accurately total all objects" time="0">
-    </testcase>
-    <testcase classname="getImportantKeys() tests" name="Should not modify the original array" time="0">
-    </testcase>
-    <testcase classname="getImportantKeys() tests" name="Should remove unneeded keys from the objects" time="0">
-    </testcase>
-    <testcase classname="getImportantKeys() tests" name="Should alter every item in the array" time="0">
-    </testcase>
-    <testcase classname="setImportantKeys() tests" name="Should not modify the original array" time="0">
-    </testcase>
-    <testcase classname="setImportantKeys() tests" name="Should add missing keys" time="0">
-    </testcase>
-    <testcase classname="setImportantKeys() tests" name="should not modify existing values" time="0">
-    </testcase>
-    <testcase classname="setImportantKeys() tests" name="Should match this exact array of objects" time="0">
-    </testcase>
-    <testcase classname="cleanCocktailResponseData() tests" name="Should not mutate the original array" time="0">
-    </testcase>
-    <testcase classname="cleanCocktailResponseData() tests" name="Should remove old keys" time="0">
-    </testcase>
-    <testcase classname="cleanCocktailResponseData() tests" name="Should rename keys" time="0">
-    </testcase>
-    <testcase classname="cleanCocktailResponseData() tests" name="Should add an array for the ingredients" time="0">
-    </testcase>
-    <testcase classname="cleanCocktailResponseData() tests" name="Should match given structure" time="0">
-    </testcase>
-    <system-out/>
-    <system-err/>
-  </testsuite>
-  <testsuite id="7" name="C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js4-array-iterators\js4.test.js" hostname="localhost" tests="59" failures="0" time="2.037" timestamp="2022-09-01T22:15:44">
-    <properties>
-    </properties>
-    <testcase classname="Testing removeFalseValues()" name="Should return an array" time="0">
-    </testcase>
-    <testcase classname="Testing removeFalseValues()" name="Should return an array of Booleans" time="0">
-    </testcase>
-    <testcase classname="Testing removeFalseValues()" name="Should remove false values from an array" time="0">
-    </testcase>
-    <testcase classname="Testing removeFalseValues()" name="Should have the same amount of true values as the orginal array" time="0">
-    </testcase>
-    <testcase classname="Testing createPercentageList()" name="Should return an array" time="0">
-    </testcase>
-    <testcase classname="Testing createPercentageList()" name="Should return an array of Strings" time="0">
-    </testcase>
-    <testcase classname="Testing createPercentageList()" name="Should convert numbers into percentages" time="0">
-    </testcase>
-    <testcase classname="Testing createPercentageList()" name="Should match given array&apos;s length" time="0">
-    </testcase>
-    <testcase classname="Testing createListOfPoessessions()" name="Should return an array" time="0">
-    </testcase>
-    <testcase classname="Testing createListOfPoessessions()" name="Should return an array of Strings" time="0">
-    </testcase>
-    <testcase classname="Testing createListOfPoessessions()" name="Should prefix name as expected" time="0">
-    </testcase>
-    <testcase classname="Testing createListOfPoessessions()" name="Should match given Array&apos;s length" time="0">
-    </testcase>
-    <testcase classname="Testing convertStringToNumbersArray()" name="Should return an array" time="0">
-    </testcase>
-    <testcase classname="Testing convertStringToNumbersArray()" name="Should return an array of Numbers" time="0">
-    </testcase>
-    <testcase classname="Testing convertStringToNumbersArray()" name="Should convert string as expected" time="0">
-    </testcase>
-    <testcase classname="Testing convertStringToNumbersArray()" name="Should handle big inputs" time="0">
-    </testcase>
-    <testcase classname="Testing convertStringToNumbersArray()" name="Should handle single inputs" time="0">
-    </testcase>
-    <testcase classname="Testing createOddEvenArray()" name="Should return an array" time="0">
-    </testcase>
-    <testcase classname="Testing createOddEvenArray()" name="Should return an array of Strings" time="0">
-    </testcase>
-    <testcase classname="Testing createOddEvenArray()" name="Should convert string as expected" time="0">
-    </testcase>
-    <testcase classname="Testing createOddEvenArray()" name="Should handle big inputs" time="0">
-    </testcase>
-    <testcase classname="Testing createOddEvenArray()" name="Should handle single inputs" time="0">
-    </testcase>
-    <testcase classname="Testing filterBooksBySearch()" name="Should return an array" time="0">
-    </testcase>
-    <testcase classname="Testing filterBooksBySearch()" name="Should return an array of Strings" time="0">
-    </testcase>
-    <testcase classname="Testing filterBooksBySearch()" name="Should handle one match" time="0">
-    </testcase>
-    <testcase classname="Testing filterBooksBySearch()" name="Should handle multiple matches" time="0">
-    </testcase>
-    <testcase classname="Testing filterBooksBySearch()" name="Should handle large matches" time="0">
-    </testcase>
-    <testcase classname="Testing filterBooksBySearch()" name="Should handle single character matches" time="0">
-    </testcase>
-    <testcase classname="Testing filterBooksBySearch()" name="Should handle no matches" time="0">
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should NOT return undefined" time="0">
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should return an array" time="0">
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should return an array of Strings" time="0">
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should have the correct amount of Fizz" time="0">
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should have Fizz in the correct index" time="0">
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should have the correct amount of Buzz" time="0">
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should have Buzz in the correct index" time="0">
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should have the correct amount of FizzBuzz" time="0">
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should have FizzBuzz in the correct index" time="0">
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should NOT alter the length of a clean input" time="0">
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should fizzBuzz a a clean array of numbers as strings as expected" time="0">
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should  NOT alter the length of a clean array of numbers as strings" time="0">
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should fizzBuzz a mixed input as expected" time="0">
-    </testcase>
-    <testcase classname="Testing fizzBuzz()" name="Should alter the length of a mixed input" time="0">
-    </testcase>
-    <system-out/>
-    <system-err/>
-  </testsuite>
-  <testsuite id="8" name="C:\Users\laila\Documents\Nology\js-challenges\src\js5-arrays-iterators-part-2\js5.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js5-arrays-iterators-part-2\js5.test.js" hostname="localhost" tests="42" failures="0" time="1.975" timestamp="2022-09-01T22:15:44">
-    <properties>
-    </properties>
-    <testcase classname="Testing totalScoresArr()" name="Should return a Number" time="0">
-    </testcase>
-    <testcase classname="Testing totalScoresArr()" name="Should total numbers" time="0">
-    </testcase>
-    <testcase classname="Testing reverseString()" name="Should return a String" time="0">
-    </testcase>
-    <testcase classname="Testing reverseString()" name="Should not alter a single letter" time="0">
-    </testcase>
-    <testcase classname="Testing reverseString()" name="Should be the same size as input" time="0">
-    </testcase>
-    <testcase classname="Testing reverseString()" name="Should reverse a String" time="0">
-    </testcase>
-    <testcase classname="Testing sortCharactersAlphabetically()" name="Should return an Array" time="0">
-    </testcase>
-    <testcase classname="Testing sortCharactersAlphabetically()" name="Should return an Array of Strings" time="0">
-    </testcase>
-    <testcase classname="Testing sortCharactersAlphabetically()" name="Should sort lowercase letters alphabetically" time="0">
-    </testcase>
-    <testcase classname="Testing sortCharactersAlphabetically()" name="Should sort uppercase letters alphabetically" time="0">
-    </testcase>
-    <testcase classname="Testing sortCharactersAlphabetically()" name="Should sort Uppercase and lowercase characters" time="0">
-    </testcase>
-    <testcase classname="Testing sortCharactersAlphabetically()" name="Should be the same length as the input" time="0">
-    </testcase>
-    <testcase classname="Testing sortNumbersHighToLow()" name="Should return an Array" time="0">
-    </testcase>
-    <testcase classname="Testing sortNumbersHighToLow()" name="Should return an Array of Numbers" time="0">
-    </testcase>
-    <testcase classname="Testing sortNumbersHighToLow()" name="Should not alter single numbers" time="0">
-    </testcase>
-    <testcase classname="Testing sortNumbersHighToLow()" name="Should sort multiple numbers high to low" time="0">
-    </testcase>
-    <testcase classname="Testing sortNumbersHighToLow()" name="Should not alter already sorted array&apos;s" time="0">
-    </testcase>
-    <testcase classname="Testing sortNumbersHighToLow()" name="Should have the same length as input" time="0">
-    </testcase>
-    <testcase classname="Testing checkItemInstock()" name="Should return a String" time="0">
-    </testcase>
-    <testcase classname="Testing checkItemInstock()" name="Should handle single items from the stock list" time="0">
-    </testcase>
-    <testcase classname="Testing checkItemInstock()" name="Should handle single no match items" time="0">
-    </testcase>
-    <testcase classname="Testing checkItemInstock()" name="Should handle every item in the stock list" time="0">
-    </testcase>
-    <testcase classname="Testing checkPrimaryColours()" name="Should return a Boolean" time="0">
-    </testcase>
-    <testcase classname="Testing checkPrimaryColours()" name="Should return true if all are primary" time="0">
-    </testcase>
-    <testcase classname="Testing checkPrimaryColours()" name="Should return false if all aren&apos;t primary" time="0">
-    </testcase>
-    <testcase classname="Testing checkPrimaryColours()" name="Should handle large inputs" time="0">
-    </testcase>
-    <testcase classname="Testing checkStringPalindrome()" name="Should return a Boolean" time="0">
-    </testcase>
-    <testcase classname="Testing checkStringPalindrome()" name="Should return true for a palindrome" time="0">
-    </testcase>
-    <testcase classname="Testing checkStringPalindrome()" name="Should return false for a string" time="0">
-    </testcase>
-    <testcase classname="Testing checkStringPalindrome()" name="Should return true for a palindrome with spaces" time="0">
-    </testcase>
-    <testcase classname="Testing checkStringPalindrome()" name="Should return false for a string with spaces" time="0">
-    </testcase>
-    <testcase classname="Testing totalNestedScoresArr()" name="Should return an Array" time="0">
-    </testcase>
-    <testcase classname="Testing totalNestedScoresArr()" name="Should return array of numbers " time="0">
-    </testcase>
-    <testcase classname="Testing totalNestedScoresArr()" name="Should total nested array of scores" time="0">
-    </testcase>
-    <testcase classname="Testing totalNestedScoresArr()" name="Should not alter single scores" time="0">
-    </testcase>
-    <testcase classname="Testing totalNestedScoresArr()" name="Should return a new array and not modify the old one" time="0">
-    </testcase>
-    <testcase classname="Testing encryptString()" name="Should return a string" time="0">
-    </testcase>
-    <testcase classname="Testing encryptString()" name="Should NOT encrypt three letters" time="0">
-    </testcase>
-    <testcase classname="Testing encryptString()" name="Should encrypt after three plus letters" time="0">
-    </testcase>
-    <testcase classname="Testing encryptString()" name="Should encrypt large words" time="0">
-    </testcase>
-    <testcase classname="Testing encryptString()" name="Should keep spaces between words" time="0">
-    </testcase>
-    <testcase classname="Testing encryptString()" name="Should handle empty input" time="0">
-    </testcase>
-    <system-out/>
-    <system-err/>
-  </testsuite>
-  <testsuite id="9" name="C:\Users\laila\Documents\Nology\js-challenges\src\js7-classes\js7.test.js" errors="0" package="C:\Users\laila\Documents\Nology\js-challenges\src\js7-classes\js7.test.js" hostname="localhost" tests="90" failures="0" time="2.033" timestamp="2022-09-01T22:15:44">
-    <properties>
-    </properties>
     <system-out/>
     <system-err/>
   </testsuite>
