@@ -35,12 +35,7 @@ jobs:
               if: always()
               with:
                github-token: ${{ secrets.GITHUB_TOKEN }}
-            - name: Process jest results with default
-              if: always()
-              uses: im-open/process-jest-test-results@v2.0.6
-              with:
-               github-token: ${{ secrets.GITHUB_TOKEN }}
-               results-file: 'result.json'
+            
             # 
             # - name: Test Report 
             #   uses: dorny/test-reporter@v1
