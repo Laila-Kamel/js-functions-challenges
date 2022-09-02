@@ -230,7 +230,7 @@ const pascalCaseVariableName = "IWantToBeSnakeCase";
 export const convertPascalCaseToSnakeCase = () => {
 // <<<<<<< Updated upstream
     let splitString = pascalCaseVariableName.split(/(?=[A-Z])/);
-    console.log(splitString);
+    // console.log(splitString);
     return splitString.join("_").toLowerCase();
 
     // return pascalCaseVariableName
