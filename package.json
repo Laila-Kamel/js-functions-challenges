@@ -18,7 +18,7 @@
     "test": "jest",
     "test-watch": "jest --watch",
     "jest-report": "jest --json --outputFile=./result.json",
-    "test-github": "jest -c=jest.config.json"
+    "test-github": "jest --no-colors -c=jest.config.json"
   },
   "contributors": [
     {
@@ -46,6 +46,7 @@
   },
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.27.2",
     "jest-junit": "^14.0.1"
   },
   "jest": {
