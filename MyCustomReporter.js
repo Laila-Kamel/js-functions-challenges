@@ -16,7 +16,7 @@ class MyCustomReporter{
         headers: {
           'Accept': 'application/json'
         },
-        data:{name: process.env.Student_Name, Passed_Test_Suite:numPassedTestSuites,Passed_Tests:numPassedTests,Failed_Test_Suite:numFailedTestSuites,Failed_Tests:numFailedTests}
+        data:{Student_Name: process.env.Student_Name, Passed_Test_Suite:numPassedTestSuites,Passed_Tests:numPassedTests,Failed_Test_Suite:numFailedTestSuites,Failed_Tests:numFailedTests}
       })
       
     }
