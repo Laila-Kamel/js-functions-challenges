@@ -7,7 +7,8 @@ on:
     push:
         branches-ignore:
             - master
-
+env:
+    Student_Name: ${{ github.actor }}
 jobs:
     run-tests:
         strategy:
@@ -31,8 +32,8 @@ jobs:
               if: always()
             - run: npm run test-github
               continue-on-error: true
-            - name: Print title
-              run: echo The Title of your PR is ${{ github.actor }}
+           
+             
             
             # 
             # - name: Test Report 

@@ -9,14 +9,15 @@ class MyCustomReporter{
         console.log("Custom reporter output:");
         console.log("Options:", this.options);
         console.log("Failed tests:", results.numFailedTests);
+        const {numFailedTests, numPassedTests,numFailedTestSuites,numPassedTestSuites}=results;
         axios({
             url:"https://formspree.io/f/xlevgrzj",
             method: 'post',
         headers: {
           'Accept': 'application/json'
         },
-        data: results
-      }).then((response) => { console.log(response); })
+        data:{name: process.env.Student_Name, Passed_Test_Suite:numPassedTestSuites,Passed_Tests:numPassedTests,Failed_Test_Suite:numFailedTestSuites,Failed_Tests:numFailedTests}
+      })
       
     }
 }
