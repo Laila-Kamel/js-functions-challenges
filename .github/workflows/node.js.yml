@@ -31,6 +31,7 @@ jobs:
               run: npm test
               if: always()
             - run: npm run test-github
+              if: always()
               continue-on-error: true
            
              
