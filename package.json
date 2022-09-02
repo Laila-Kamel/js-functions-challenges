@@ -16,7 +16,7 @@
     "test-coverage": "jest ./src/js11-unit-testing/challenge.test.js --watch --coverage",
     "test": "jest",
     "test-watch": "jest --watch",
-    "jest-report":"jest --json --outputFile=jest-results.json"
+    "jest-report":"jest --json --outputFile=result.json"
   },
   "contributors": [
     {
