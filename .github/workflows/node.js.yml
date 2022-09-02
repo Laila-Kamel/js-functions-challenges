@@ -40,7 +40,7 @@ jobs:
               uses: im-open/process-jest-test-results@v2.0.6
               with:
                github-token: ${{ secrets.GITHUB_TOKEN }}
-               results-file: 'src/jest-results.json'
+               results-file: 'result.json'
             # 
             # - name: Test Report 
             #   uses: dorny/test-reporter@v1
