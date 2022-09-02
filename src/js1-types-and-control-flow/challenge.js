@@ -21,7 +21,7 @@ const test="test";
 
 export const createFullName = () => {
 // <<<<<<< Updated upstream
-    return firstName;
+    return firstName+" "+lastName
 // =======
   // Write your code here
   const result=firstName+" "+lastName;
